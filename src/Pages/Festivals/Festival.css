@@ -1,0 +1,488 @@
+.calenderIcon,.heartIcon{
+    margin-top: 2px !important;
+}
+.festivals_imagesSection2 p,.festivals_imagesSection3 p,.festivals_imagesSection4 p{
+    position: relative !important;
+    top:70px !important;
+}
+.youMayLikeFest{
+    background-color: #F8FAFF;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.save-heading{
+    font-size: 26px;
+}
+
+
+.cheerHearing{
+    font-size: 30px;
+}
+
+.best-thing-heading{
+    word-spacing:-3px !important;
+}
+
+.footNote{
+    font-size: 10px;
+    color: rgb(177, 177, 177);
+    position: relative;
+    top: -5px;
+}
+
+.yutagar-img1{
+    border-radius:3px;
+    /* box-shadow:0px 1px 5px 2px rgb(177, 177, 177); */
+}
+.yutagar-img2{
+    border-radius: 3px;
+}
+.btn-learn-more{
+    font-size: 14px !important;
+}
+.festivalFirstDiv{
+    width: 83%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    /* background-color: #333333; */
+    margin-left:auto;
+    margin-right:20px
+}
+
+.get-convenient{
+    font-size: 16px;
+    font-weight: 600;
+    word-spacing: 2px;
+}
+
+.festivalSecondDiv{
+    width:60%;
+    margin-left: 15%;
+}
+
+.festival-div{
+    width:100%;
+    margin-left: -35px;
+    padding-bottom: 20px;
+    background-color: #F4F4F4;
+}
+
+.festival-ul{
+    /* margin-top: 40px; */
+    /* margin-left: 10px; */
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 23px;
+    color:#8C8C8C;
+}
+.btn-explore-more{
+    font-size: 12px !important;
+    border: 1px solid white !important;
+    color:#4DC4F1 !important;
+}
+.festival-twitter-icon{
+    width:37px;
+}
+.festival-message-icon{
+    width:37px;
+}
+.festival-instagram-icon{
+    width:37px;
+}
+.publisher-paragraph{
+    line-height: 30px !important;
+    font-size: 16px;
+    font-weight: 450 !important;
+}
+.publisher-paragraph span{
+    color:#3DB2E2;
+    font-weight:600;
+}
+.festival-facebook-icon{
+    width:37px;
+}
+.festival-ul li{
+    padding: 5px;
+}
+.festivals-div1{
+    width:30%;
+    background-color: #333333;
+    margin:auto;
+    margin-top: 40px;
+
+
+}
+.festival-div2{
+    width:300px;
+    height:180px;
+    background-color:#F2F6FF;
+   
+
+}
+.festival-icons{
+    cursor: pointer;
+    background-image : url('../../Assets/Rectangle\ 208.png'); 
+    width:200px;
+    text-align: center;
+    height: 35px;
+    font-weight: 500;
+    font-size: 14px;
+    /* font-weight: bold; */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-top: 3px;
+    margin-left: 50px;
+    margin-top: 30px;
+  
+}
+
+
+.festivals_imagesSection1 p{
+    top:70px;
+}
+
+.festival-icons1{
+    cursor: pointer;
+    background-image : url('../../Assets/Rectangle\ 208.png'); 
+    width:200px;
+    text-align: center;
+    height: 35px;
+    font-weight: 500;
+    font-size: 14px;
+    /* font-weight: bold; */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-top: 3px;
+    margin-left: 50px;
+    margin-top: 40px;
+      
+}
+
+@media only screen and (max-width:2020px){
+
+    .festivals-div1{
+        width: 40%;
+    }
+    }
+    
+    @media only screen and (max-width:2020px){
+    
+        .festivals-div1{
+            width: 52%;
+        }
+        }
+    
+
+        
+    @media only screen and (max-width:1924px){
+.festivals_imagesSection1 p{
+    top:60px;
+}
+    }
+    @media only screen and (max-width:1870px){
+        .festivalSecondFirstDIv{
+            width: 65% !important;
+        }
+    }
+    
+
+    @media only screen and (max-width:1280px){
+        .festivalSecondFirstDIv{
+            width: 73% !important;
+        }
+        }
+        
+@media only screen and (max-width:1145px){
+
+    .btn-explore-more{
+        width: 90px;
+        /* padding-left: 0px !important; */
+    }
+    .festivalSecondFirstDIv{
+        width: 78% !important;
+    }
+    .festivals-div1{
+        width: 65%;
+    }
+    }
+
+@media only screen and (max-width:1024px){
+    
+    .get-convenient{
+        font-size: 14px !important;
+    }
+.festivals-div1{
+    width:70%;
+}
+.festivalSecondFirstDIv{
+    width: 85% !important;
+}
+/* .cheerHearing{
+    font-size:24px
+} */
+.festivals_imagesSection2 p{
+    top:30px !important;
+    }
+    .festivals_imagesSection1 p{
+        top:20px;
+    }
+    .festivals_imagesSection3 p,.festivals_imagesSection4 p{
+    top:40px !important;
+    }
+}
+
+
+@media only screen and (max-width:940px){
+
+    .festivalSecondFirstDIv{
+        width: 95% !important;
+    }
+}
+
+
+@media only screen and (max-width:900px){
+    .festivalSecondDiv{
+        width: 98%;
+        margin-left:0px !important;
+    }
+    
+    .festivalSecondFirstDIv{
+        width: 85% !important;
+    }
+    .festivals_imagesSection2 p,.festivals_imagesSection3 p,.festivals_imagesSection4 p{
+    top:80px !important;
+    }
+    
+    .festivals_imagesSection1 p{
+        top:60px;
+    }
+.festivalFirstDiv{
+text-align: left;
+width: 96% !important;
+margin:auto !important;
+}
+.viewMyCalTxt,.viewMyFavTxt{
+    font-size: 13px !important;
+}
+.calenderIcon,.heartIcon{
+    width: 80% !important;
+}
+.heartIcon{
+    margin-top: 4px !important;
+}
+.btn-explore-more{
+    /* margin-left: -10px !important; */
+}
+    .this-week-heading{
+        margin-left: -200px !important;  
+    }
+    .feature-div{
+      margin-left: 180px !important;
+    }
+    .recommended-div{
+        margin-left: 180px !important;
+    }
+    .give-way-div{
+        margin-left: 180px !important;
+    }
+    .this-week-div{
+        margin-left: 180px !important;
+    }
+    .festivals-div1{
+        width:80% !important;
+      }
+      .festival-hr{
+          width: 100% !important;
+    }
+    .festival-div{
+        width: 100% !important;
+        margin-left: 0px !important;
+    }
+    .miracle-heading,.see-magic-heading,.chicago-most-magical{
+        margin-left: 10px !important;
+    }
+    .see-magic-heading{
+        margin-left: -10px !important;
+        padding-left: 0px !important;
+    }
+}
+
+@media only screen and (max-width:740px){
+
+    .btn-explore-more{
+        width: 90px !important;
+    }
+}
+
+@media only screen and (max-width:599px){
+    .festivalSecondFirstMainDIv{
+        /* width: 80% !important; */
+    }
+    .calenderIcon,.heartIcon{
+        height: 20px !important;
+        /* width: 10% !important; */
+    }
+    .festivalSecondDiv{
+        width: 50% !important;
+        margin: auto !important;
+    }
+    .festival-image10{
+        width: 100px !important;
+    }
+}
+@media only screen and (max-width:426px){
+
+    .festivalSecondDiv{
+        width: 100% !important;
+        margin: auto !important;
+    }
+.festivals_imagesSection2 p,.festivals_imagesSection3 p,.festivals_imagesSection4 p{
+top:60px !important;
+}
+
+.festivals_imagesSection1 p{
+    top:50px;
+}
+.see-magic-heading{
+    text-align: left;
+    position: relative;
+    left: -6px;
+    margin-left: 0px !important;
+    padding-left: 0px !important;
+}
+
+.yutagar-img1,.yutagar-img2{
+    height: 320px !important;
+}
+
+.festivalSecondFirstMainDIv{
+    width: 80% !important;
+    margin: auto;
+}
+.festivalSecondFirstDIv{
+    width: 60% !important;
+}
+
+.calenderIcon,.heartIcon{
+    width: 60% !important;
+}
+.viewMyCalTxt,.viewMyFavTxt{
+    font-size: 16px !important;
+}
+
+    .best-thing-heading{
+        /* margin-left: -5px !important; */
+        font-size: 22px !important;
+    }
+    .festivals-icon{
+        text-align: left !important;
+    }
+    .publisher-paragraph,.cheerHearing{
+        text-align: left;
+    }
+    .cheerHearing{
+        font-size: 22px !important;
+    }
+    .festivalFirstDiv{
+        width: 99% !important;
+        margin: auto;
+        /* text-align: center; */
+        /* text-align: center !important; */
+    }
+    .festival-div{
+        width: 100% !important;
+    }
+    .best-thing-heading{
+        text-align: left;
+    }
+.festivals-div1{
+    height:219px !important;
+    width: 90% !important;
+}
+
+
+.festivalSecondDiv{
+    width: 100%;
+}
+.mobile-img{
+    width:90% !important;
+    height:250px !important;
+}
+.yutagar-img1{
+    width:100% !important;
+}
+.btn-explore-more{
+    font-size: 10px !important;
+}
+.chicago-most-magical{
+    margin-left: 1px !important;
+}
+.btn-explore-more{
+    width: 90% !important;
+    /* padding-left: 13px !important; */
+}
+  .chicago-most-magical{
+      font-size: 10px  !important;
+  }
+  .festival-image10{
+    width:55px !important;
+    height:100% !important;
+}
+
+}
+@media only screen and (max-width:375px){
+.festivals_imagesSection4 p,.festivals_imagesSection3 p{
+    top:70px !important;
+}
+    .festivals-div1{
+        width: 98% !important;
+        margin-left: 2px !important;
+    }
+    .yutagar-img1,.yutagar-img2{
+        height: 280px !important;
+        /* width:320px !important; */
+    }
+
+}
+@media only screen and (max-width:320px){
+    .festivals-div1{
+        width: 99% !important;
+    }
+    
+    .festivals_imagesSection1 p{
+        top:40px;
+    }
+    .festivals_imagesSection4 p,.festivals_imagesSection3 p{
+        top:60px !important;
+    }
+    .festivals_imagesSection2 p{
+        top:50px !important;
+    }
+    .yutagar-img1{
+        height: 250px !important;
+        /* width:320px !important; */
+    }
+    .yutagar-img2{
+        height: 250px !important;
+
+        /* width: 320px !important; */
+    }
+    .mobile-img{
+        height: 220px !important;
+    }
+    .written-by-heading{
+        margin-left: -1px !important;
+    }
+
+    .festival-image10{
+        /* width:100px !important; */
+        height: 145px !important;
+    }
+    .publisher-paragraph{
+        font-size: 12px !important;
+    }
+    .festivalSecondFirstDIv{
+        width: 80% !important;
+    }
+    
+}

@@ -1,0 +1,327 @@
+.beforeImagesMain{
+    margin-bottom: 20px;
+    /* background-color: black; */
+    background-image: url('./../../Assets/clement-falize-UzZhBohuFXo-unsplash 5.png');
+    width: 100%;
+    align-self:flex-end;
+    float: right;
+    text-align: left;
+    height: 390px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    margin-top: 30px;
+    /* background-blend-mode:hard-light; */
+}
+.beforeImageDiv{
+    width: 90%;
+    margin-left: 5%;
+    transition-duration: 0.2s;
+    background-color: white;
+    color:#393939;
+    text-align: center;
+    height: 312px;
+    margin-top: 39px;
+    font-size: 19px;
+    border-radius: 3px;
+}
+
+
+
+.beforeImageDiv1{
+}
+.beforeImageDiv h3{
+    font-weight: 800 !important;
+    
+}
+
+
+.beforeImagesUl{
+    list-style-type: none;
+    margin: auto ;
+    /* padding: auto; */
+    width:50%;
+    color: white;
+    font-weight: 700;
+    margin-top: 25px;
+    margin-left: 100px;
+    
+}
+.beforeImagesUl li{
+    margin-top:17px;
+    font-size: 25px;
+    letter-spacing: 0.5px;
+}
+
+.beforeImagesUl li:hover{
+    color:#EF6F6F;
+    cursor: pointer;
+    list-style-type:disc;
+}
+
+.beforeImageDiv:hover{
+    transform: scale(1.1,1.1);
+    transition-duration: 0.2s;
+}
+
+@media only screen and (max-width:2350px){
+
+}
+
+
+@media only screen and (max-width:2180px){
+
+}
+    
+@media only screen and (max-width:1840px){
+
+}
+
+@media only screen and (max-width:1586px){
+
+}
+
+
+@media only screen and (max-width:1440px){
+
+    .beforeImagesMain{
+        /* margin-bottom: 20px; */
+        /* background-color: black; */
+        background-image: url('./../../Assets/clement-falize-UzZhBohuFXo-unsplash 5.png');
+        width: 100%;
+        align-self:flex-end;
+        float: right;
+        text-align: left;
+        height: 290px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% 100%;
+        margin-top: 30px;
+        /* background-blend-mode:hard-light; */
+    }
+
+    .beforeImageDiv1 h3{
+        top: 24px !important;
+    }
+    .beforeImageDiv2 h3{
+        top: 14px !important;
+    }
+    .beforeImageDiv3 h3{
+        top: -18px !important;
+    }
+
+
+    .beforeImageDiv{
+        width: 95%;
+        transition-duration: 0.2s;
+        background-color: white;
+        color:#393939;
+        text-align: center;
+        height: 205px;
+        font-size: 19px;
+        margin-top: 42px;
+        /* margin-left: 30px; */
+        border-radius: 3px;
+    }
+    .beforeImagesUl li{
+        margin-top:17px;
+        font-size: 17px;
+        letter-spacing: 0.5px;
+    }
+        
+
+}
+
+@media only screen and (max-width:1350px){
+
+    .beforeImageDiv1 h3{
+        top:30px !important;
+    }
+
+}
+
+@media only screen and (max-width:1250px){
+
+    .beforeImageDiv1 h3{
+        top:35px !important;
+    }
+    .beforeImageDiv2 h3{
+        top: 20px !important;
+    }
+
+    .beforeImageDiv3 h3{
+        top: -15px !important;
+    }
+.beforeImagesUl{
+        margin-left: 0px !important;    
+}
+}
+
+@media only screen and (max-width:1030px){
+    .beforeImagesUl{
+        margin-left: 0px !important;    
+    }
+    .beforeImageDiv1 h3{
+        top:30px !important;
+    }
+    .beforeImageDiv3 h3{
+        top:-20px !important;
+    }
+}
+
+@media only screen and (max-width:899px){
+    .beforeImageDiv{
+        width: 95%;
+        height: 80%;
+        margin-top: 10%;
+
+    }
+
+    .beforeImageDiv img{
+        height: 75%;
+    }
+
+    .beforeImageDiv1 img{
+        width: 80%;
+    }
+    .beforeImageDiv2 img{
+        width: 70%;
+    }
+    
+    .beforeImageDiv3 img{
+        width: 40%;
+    }
+    .beforeImagesUl{
+        margin-top:20px !important;
+    }
+    
+.beforeImagesMain{
+    height:240px
+}
+.beforeImageDiv h3{
+    font-size: 20px;
+}
+.beforeImagesUl li{
+    margin-top:12px;
+    font-size: 18px;
+}
+
+
+}
+
+@media only screen and (max-width:720px){
+
+.beforeImageDiv1 h3{
+    font-size: 20px !important;
+    /* top: 27px !important; */
+}
+.beforeImageDiv2 h3{
+    font-size: 20px !important;
+}
+
+.beforeImageDiv{
+    height: 60%;
+    margin-top: 30%;
+}
+
+.beforeImageDiv3 h3{
+    font-size: 20px !important;
+}
+
+}
+
+@media only screen and (max-width:640px){
+
+    .beforeImageDiv1 h3{
+        font-size: 18px !important;
+        top: 27px !important;
+    }
+    .beforeImageDiv2 h3{
+        font-size: 18px !important;
+    }
+    
+    .beforeImageDiv3 h3{
+        font-size: 18px !important;
+    }
+    
+}
+
+@media only screen and (max-width:599px){
+
+.beforeImageDiv2 h3{
+top:0px !important;
+font-size: 22px !important;
+}
+
+
+
+.beforeImageDiv1 h3{
+font-size: 22px !important;
+}
+
+   
+    .beforeImagesMain{
+        height:1200px;
+    }
+    .beforeImageDiv{
+        width: 70%;
+        margin: auto;
+        margin-top: 30px;
+        height: 220px;
+    }
+
+    .beforeImageDiv1 img{
+        width: 70%;
+    }
+
+    .beforeImageDiv2 img{
+        width: 50%;
+    }
+
+    .beforeImageDiv3 img{
+        width: 30%;
+    }
+
+    .beforeImagesUl{
+        width: 100%;
+        /* margin:auto; */
+        padding-left: 0px !important;
+        text-align: center;
+    }
+    .beforeImagesUl li{
+        font-size: 20px !important;
+        margin-top: 22px;
+
+    }
+
+    .beforeImageDiv3 img{
+        /* margin-top: 5% !important; */
+    }
+    .beforeImageDiv3 h3{
+        top: -15px !important;
+        font-size: 22px !important;
+    }
+
+}
+
+
+@media only screen and (max-width:380px){
+
+    .beforeImageDiv2{
+        margin-left: 55px !important;
+    }
+
+
+}
+
+@media only screen and (max-width:330px){
+
+    .beforeImageDiv2{
+        margin-left: 45px !important;
+    }
+
+    .beforeImageDiv1,.beforeImageDiv3{
+        margin-left: 45px !important;
+    }
+
+}

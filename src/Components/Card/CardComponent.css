@@ -1,0 +1,147 @@
+.card_heading{
+    font-weight: 650;
+    font-size: 18px;
+    letter-spacing: 0.3px;
+    height: 50px;
+}
+
+.card_price{
+    background-color: #F4F4FE;
+    padding: 10px;
+    font-weight: 650;
+    /* padding-top:   0px; */
+    font-size: 18px;
+    border-radius: 5px;
+}
+.cardMain{
+    box-shadow: 0px 3px 3px 2px rgb(219, 218, 218) !important;
+    border-radius: 2px !important;
+}
+.card_Img{
+    /* width:  !important; */
+    width: 100% !important;
+    height: 400px !important;
+}
+.card_off_price{
+    background-color: #EB3E3B;
+    border-radius: 30px;
+    padding: 3px;
+    padding-left: 8px;
+    padding-right: 8px;
+    color: white;
+    font-size: 16px;
+    margin-left: 10px !important;
+}
+.card_heart_icon{
+    float: right;
+}
+
+.card_Img:hover{
+    transform: scale(1.2,1.2);
+}
+
+@media only screen and (max-width:1800px){
+.card_Img{
+    height: 226px !important;
+}
+.card_heading{
+font-size: 16px;
+}
+}
+
+@media only screen and (max-width:1200px){
+.card_price,.card_off_price{
+    font-size:16px;
+}
+}
+
+@media only screen and (max-width:1135px){
+    .card_price,.card_off_price{
+        font-size:14px;
+    }
+    .card_Img{
+        height: 180px !important;
+    }
+
+    }
+
+@media only screen and (max-width:1030px){
+    .card_price,.card_off_price{
+        font-size: 13px;
+    }
+.card_off_price{
+    padding-left: 4px;
+    font-size: 14px;
+    margin-left: 2px !important;
+    padding-right: 4px;
+}
+.card_Img{
+    width: 285px !important;
+    height: 186px !important;
+    border-radius: 10px !important;
+}
+}
+
+@media only screen and (max-width:1010px){
+
+.card_Img{height:160px !important;}
+
+}
+
+@media only screen and (max-width:900px){
+    .card_off_price{
+        padding-left: 8px;
+        font-size: 16px;
+        margin-left: 2px !important;
+        padding-right: 8px;
+    }
+    .card_Img{
+        width: 100% !important;
+        height: 280px !important;
+    }
+    .cardMain{
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width:790px){
+
+
+    .card_Img{
+        height: 240px !important;
+    }
+
+}
+
+@media only screen and (max-width:712px){
+
+    .card_Img{
+        height: 200px !important;
+    }
+
+}
+
+
+@media only screen and (max-width:599px){
+
+    .card_Img{
+        height: 260px !important;
+    }
+
+}
+
+@media only screen and (max-width:480px){
+
+    .card_Img{
+        height: 220px !important;
+    }
+
+}
+
+@media only screen and (max-width:340px){
+
+    .card_Img{
+        height: 200px !important;
+    }
+
+}

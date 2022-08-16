@@ -1,0 +1,128 @@
+
+.footer_icon{
+    margin-left: 20px;
+    margin-top:20%;
+}
+.footer_img_div{
+    text-align: center;
+}
+.follow_us_txt{
+    font-weight: 800;
+    font-size: 24px;
+    color:#333333;
+    margin-top: 70px;
+}
+
+.footer_img_div_img{
+    margin: 20px;
+    margin-top: 0px;
+    cursor: pointer;
+}
+.footer_support{
+    margin-left: 38%;
+}
+.footer_support1{
+    margin-left: 48%;
+}
+.footer_support p{
+    cursor: pointer;
+}
+
+@media only screen and (max-width:1200px){
+
+    .footer_img_div{
+        margin-left:30px !important;        
+        }
+    
+
+}
+
+@media only screen and (max-width:1100px){
+
+.footer_icon{
+    width: 330px ;
+}    
+
+}
+
+
+@media only screen and (max-width:1030px){
+
+    .footer_img_div{
+        margin-left: 30px;
+        /* background-color: yellow !important; */
+    }
+}
+
+@media only screen and (max-width:1025px){
+
+    .footer_img_div{
+    margin-left:60px !important;        
+    }
+    .footer_img_div_img{
+        margin-left:0px !important;
+    }
+
+}
+
+@media only screen and (max-width:920px){
+
+.footer_img_div_img{
+    margin-left: -5px !important;
+}
+
+}
+
+
+@media only screen and (max-width:830px){
+    .footer_img_div{
+        margin-left: 0px;
+
+    }
+    .footer_img_div_img{
+        height: 41px;
+        width: 41px;
+    }
+    .footer_icon{
+        width: 90% !important;
+        height: 100px !important;
+    }
+    .footer_support{
+        margin: auto !important;
+        text-align: center;
+
+    }
+    }
+
+    @media only screen and (max-width:730px){
+    
+        .footer_img_div_img{
+            margin-left: -10px !important;
+        }
+        .footer_img_div{
+            margin-left:30px !important;
+        }
+
+    }
+
+@media only screen and (max-width:600px){
+    .footer_support{
+        margin: auto !important;
+        text-align: center;
+    }
+
+    .footer_icon{
+        width: 60% !important;
+        margin: auto;
+        
+    }
+}
+
+@media only screen and (max-width:380px){
+    .footer_icon{
+        width: 80% !important;
+        margin: auto;
+        
+    }
+
+}

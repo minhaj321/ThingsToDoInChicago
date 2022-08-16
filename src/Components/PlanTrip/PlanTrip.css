@@ -1,0 +1,105 @@
+.planTripMain{
+    width: 85%;
+    margin: auto;
+}
+
+@media only screen and (max-width:1250px){
+
+.planTripMapDiv{
+    margin-left: -30px;
+}
+.locateDiv p,.locateDiv h2{
+    margin-left: -20px ;
+}
+.locateDiv div{
+    margin: auto !important;
+    margin-left: 10% !important;
+    width: 70% !important;
+}
+}
+
+
+@media only screen and (max-width:1150px){
+
+    .locateDiv p,.locateDiv h2{
+        margin-left: 0px ;
+    }
+    .locateDiv div{
+        margin: auto !important;
+        margin-left: 15% !important;
+        width: 70% !important;
+    }
+    }
+
+
+@media only screen and (max-width:1050px){
+
+    .locateDiv div{
+        margin: auto !important;
+        width: 75% !important;
+    }
+
+}
+@media only screen and (max-width:990px){
+
+.officialGrid,.locateDiv{
+    margin: auto !important;
+    margin-left: 15px !important;
+}
+.locateDiv{
+    margin-left: 20px !important;
+}
+.planTripMapDiv{
+    /* margin-top: 10px !important; */
+    margin: auto;
+}
+.locateDiv div{
+    margin: auto !important;
+    width: 65% !important;
+}
+
+}
+@media only screen and (max-width:945px){
+    .planTripMapDiv{
+        margin-top: 10px !important;
+        margin: auto;
+    }
+
+    .planTripMain{
+        width: 100%;
+        margin: auto;
+    }
+
+ .plainTripFirstSub{
+     margin-left: 30px;
+ }   
+.getTheMapDIv{
+    width: 32% !important;
+}
+.downloadDiv{
+    width:30% !important
+}
+
+    .planTripMapDiv{
+        /* margin-top: 30px !important; */
+    }
+
+}
+
+@media only screen and (max-width:899px){
+
+.locateDiv div{
+    width: 40% !important;
+}
+    .plainTripFirstSub{
+        margin-left: 0px;
+    }   
+}
+
+@media only screen and (max-width:599px){
+
+.locateDiv div{
+    width: 35% !important;
+}
+
+}

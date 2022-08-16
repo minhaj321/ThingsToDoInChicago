@@ -1,0 +1,399 @@
+.imagesDivMain{
+    width:93%;
+    margin: auto;
+}
+
+.image_Div,.image_Div1{
+    color:white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: flex-end !important;
+    border-radius: 3px;
+    cursor: pointer;
+    background-color: red;
+    box-shadow: 0px 2px 3px 2px rgb(212, 210, 210);
+    
+}
+
+.image_Div p,.image_Div1 p{
+    /* padding-right: 20% !important; */
+    /* padding-left: 20% !important; */
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+
+.first_Image_Div{
+    /* margin-bottom: 20px; */
+    /* background-color: black; */
+    background-image: url('./../../Assets/firstImg.png');
+    width: 98%;
+    align-self:flex-end;
+    /* float: right; */
+    text-align: left;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    margin: auto;
+    margin-top: 15px;
+    border: 3px solid #4DC4F1;
+    border-radius: 3px;
+    /* box-shadow: 0px 2px 3px 2px rgb(212, 210, 210); */
+}
+
+
+.second_Image_Div{
+    border: 3px solid #9E79E5;
+    background-image: url('./../../Assets/secondImg.png');
+    width: 98%;
+    align-self:flex-end;
+    text-align: left;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    margin: auto ;
+    margin-top: 3px;
+}
+.third_Image_Div{
+    /* background-color: black; */
+    background-image: url('./../../Assets/secondImg.png');
+    border: 3px solid #EF6F6F;
+    width: 98%;
+    align-self:flex-end;
+    /* float: right; */
+    text-align: left;
+    height: 515.5px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    /* margin-top: 30px; */
+    margin: auto ;
+    margin-top: 3px;
+}
+
+.fourth_Image_Div{
+    border: 3px solid #F28846;
+    background-image: url('./../../Assets/fourthImg.png');
+    width: 99%;
+    align-self:flex-end;
+    /* float: right; */
+    text-align: left;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    margin: auto ;
+    margin-top: 15px;
+}
+
+.fifth_Image_Div{
+    /* background-color: black; */
+    background-image: url('./../../Assets/fifthImg.png');
+    width: 97.5%;
+    align-self:flex-end;
+    border: 3px solid #4BB0B0;
+    /* float: right; */
+    text-align: left;
+    height: 249px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    margin: auto;
+    margin-top: 3px;
+}
+
+.sixth_Image_Div{
+    /* background-color: black; */
+    background-image: url('./../../Assets/eighthImg.png');
+    width: 97.5%;
+    border: 3px solid #9E79E5;
+    align-self:flex-end;
+    /* float: right; */
+    text-align: left;
+    height: 253px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    margin: auto;
+    margin-top: 2px;
+}
+
+.seventh_Image_Div{
+    /* background-color: black; */
+    background-image: url('./../../Assets/seventhImg.png');
+    border: 3px solid #F4EB5B;
+    width: 97.5%;
+    align-self:flex-end;
+    /* float: right; */
+    text-align: left;
+    height: 255px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    margin: auto;
+    margin-top: 3px;
+
+}
+
+
+.eight_Image_Div{
+    /* background-color: black; */
+    background-image: url('./../../Assets/eighthImg.png');
+    border: 3px solid #9E79E5;
+    width: 98%;
+    align-self:flex-end;
+    /* float: right; */
+    text-align: left;
+    height: 512px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    margin: auto;
+    margin-top: 3px;
+}
+
+
+.ninth_Image_Div{
+    /* background-color: black; */
+    background-image: url('./../../Assets/ninth.png');
+    border: 3px solid #57D542;
+    width: 98%;
+    align-self:flex-end;
+    /* float: right; */
+    text-align: left;
+    height: 253px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    margin: auto;
+    margin-top: 3px;
+}
+
+.fourth_Image_Div p{
+    padding-left: 37%;
+    padding-right: 37%;
+}
+
+.image_Div1:hover{
+    background-position: center;
+    background-size: 120% 120%;
+    overflow: hidden; 
+    transition: all 0.6s;
+
+}
+
+@media only screen and (max-width:1650px){
+    .seventh_Image_Div,.fifth_Image_Div,.sixth_Image_Div{
+        width: 97%;
+    }
+}
+
+@media only screen and (max-width:1440px){
+.fourth_Image_Div{
+    width: 98.5%;
+}
+.fifth_Image_Div,.sixth_Image_Div,.seventh_Image_Div{
+    width: 96.5%;
+}
+.eight_Image_Div,.ninth_Image_Div{
+    width: 96.5%;
+}
+.first_Image_Div,.second_Image_Div,.third_Image_Div{
+    width: 97%;
+}
+}
+
+@media only screen and (max-width:1200px){
+.first_Image_Div,.fifth_Image_Div,.sixth_Image_Div,.seventh_Image_Div,.ninth_Image_Div{
+    height: 232px ;
+    border-width: 3px;
+}
+.third_Image_Div,.second_Image_Div,.eight_Image_Div{
+    height: 480px;
+    border-width: 3px;
+}
+.fourth_Image_Div{
+    height: 480px;
+    border-width: 3px;
+}
+.sixth_Image_Div{
+    height: 240px;
+    border-width: 3px;
+}
+.ninth_Image_Div{
+    border-width: 3px;
+    height: 232px;
+}
+}
+
+@media only screen and (max-width:1030px){
+    .imagesDivMain{
+        width:95%;
+        margin: auto;
+    }
+.image_Div1 p{
+    padding-left: 15% !important;
+    padding-right: 15% !important;
+}
+.fourth_Image_Div p{
+    padding-left: 30% !important;
+    padding-right: 30% !important;
+}    
+.first_Image_Div,.fifth_Image_Div,.sixth_Image_Div,.seventh_Image_Div,.ninth_Image_Div{
+    border-width: 2px;
+}
+.third_Image_Div,.second_Image_Div,.eight_Image_Div{
+    border-width: 2px;
+}
+.fourth_Image_Div{
+    border-width: 2px;
+}
+.ninth_Image_Div{
+    height: 230px;
+}
+.third_Image_Div{
+    height: 478px;
+}
+}
+
+@media only screen and (max-width:899px){
+
+.first_Image_Div{
+    height: 200px;
+}
+.second_Image_Div{
+    height: 400px;
+}
+.third_Image_Div,.eight_Image_Div{
+    height: 406px;
+}
+.fourth_Image_Div{
+    height: 400px;
+}
+.fifth_Image_Div,.sixth_Image_Div,.seventh_Image_Div,.ninth_Image_Div{
+    height: 200px;
+}
+
+}
+
+@media only screen and (max-width:770px){
+    .imagesDivMain{
+        width:100%;
+        /* margin: auto; */
+    }
+    .image_Div1{
+        /* height: 400px !important; */
+    }
+    .image_Div1 p{
+        padding-left: 30% !important;
+        padding-right: 30% !important;
+    }
+     
+}
+
+@media only screen and (max-width:680px){
+
+    .first_Image_Div{
+        height: 220px;
+    }
+    .second_Image_Div{
+        height: 430px;
+    }
+    .third_Image_Div,.eight_Image_Div{
+        height: 420px;
+    }
+    .fourth_Image_Div{
+        height: 442px;
+    }
+    .fifth_Image_Div,.sixth_Image_Div,.seventh_Image_Div,.ninth_Image_Div{
+        height: 208px;
+    }
+    .fifth_Image_Div{
+        height: 207px;
+    }
+    .third_Image_Div{
+        height: 422px;
+    }
+    .first_Image_Div,.second_Image_Div,.third_Image_Div{
+        width: 96%;
+    }       
+
+}
+
+@media only screen and (max-width:530px){
+
+
+    .first_Image_Div{
+        height: 180px;
+        border-width: 1px;
+    }
+    .second_Image_Div{
+        height: 360px;
+        border-width: 1px;
+    }
+    .third_Image_Div{
+        height: 360px;
+        border-width: 1px;
+    }
+    .fourth_Image_Div{
+        border-width: 1px;
+        height: 360px;
+    }
+    .fifth_Image_Div{
+        border-width: 1px;
+        height: 180px;
+    }
+    .sixth_Image_Div{
+        border-width: 1px;
+        height: 176px;
+    }
+    .seventh_Image_Div{
+        height: 180px;
+        border-width: 1px;
+    }
+    .eight_Image_Div{
+        height: 361px;
+        border-width: 1px;
+    }
+    .ninth_Image_Div{
+        height: 178px;
+        border-width: 1px;
+    }
+
+}
+
+@media only screen and (max-width:430px){
+
+
+    .first_Image_Div{
+        height: 140px;
+    }
+    .second_Image_Div{
+        height: 280px;
+    }
+    .third_Image_Div,.eight_Image_Div{
+        height: 280px;
+    }
+    .fourth_Image_Div{
+        height: 280px;
+        width: 97%;
+    }
+    .fifth_Image_Div,.sixth_Image_Div,.seventh_Image_Div,.ninth_Image_Div{
+        width: 95%;
+        height: 138px;
+    }
+    .fifth_Image_Div{
+        height: 140px;
+    }
+    .eight_Image_Div{
+        width: 95%;
+        height: 281px;
+    }
+.image_Div1 p{
+    font-size: 16px;
+}
+}

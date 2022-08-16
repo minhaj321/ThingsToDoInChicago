@@ -1,0 +1,327 @@
+.findRestaurantMapDiv{
+    border-radius: 5px;
+}
+
+.breadCrumFindRestDiv{
+    width:88%;
+    margin:auto;
+}
+
+
+.FindRestaurantsHeader{
+    background-image: url('./../../Assets/burger.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    width: 100%;
+    /* height: 200px; */
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.FindRestaurants_txt{
+    /* padding-left: 10%; */
+    margin-top: 100px;
+    color: white;
+    font-size: 45px;
+    font-weight: bold;
+    /* border-left: 8px solid blue; */
+    padding: 5px;
+    text-shadow: 2px 2px black;
+    padding-left: 10px;
+    
+}
+
+.headerSubDiv{
+    text-align: left;
+    border-left: 8px solid #53A9ED;
+    width: 35%;
+    margin: auto;
+}
+
+.findRestSearchInput{
+    border: none;
+    width:60%;
+    background-color: transparent;
+}
+.findRestSearchInput::placeholder{
+    font-weight: 600;
+}
+.findRestSearchInput:focus{
+    outline: none;
+}
+
+.searchNowBtn{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color:white;
+    cursor: pointer;
+    background-color: #3FB3E4;
+}
+
+.searchNowIconBtn{
+    width: 100%;
+    cursor: pointer;
+    padding-top: 6.5px;
+    padding-bottom: 6.5px;
+    color:white;
+    background-color: #3FB3E4;
+}
+
+.findRestMain{
+    background-color: #F5F4F4;
+    padding-bottom: 50px;
+    width: 98%;
+    border-radius: 5px;
+}
+
+.findRestAcceTxt{
+    font-size:14px;
+    color:#5e5c5c;
+    font-weight: 700;
+}
+
+.findRestFeatRestTxt{
+    color:#8C8C8C;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.findRestaurant_Image_Div_First{
+    background-image: url('./../../Assets/Group 231.jpg');
+}
+
+.findRestaurant_Image_Div_Second{
+    background-image: url('./../../Assets/Group 232.jpg');
+    /* height: 275px !important; */
+}
+
+.findRestaurant_Image_Div_Third{
+    background-image: url('./../../Assets/Group 233.jpg');
+}
+
+.findRestaurant_Image_Div_Fourth{
+    background-image: url('./../../Assets/Group 233.jpg');
+}
+
+.find_image_Div{
+    height:270px;
+    width:92%;
+    text-align: left;
+    margin:auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    color:white;
+    display: flex;
+    align-items: flex-end !important;
+
+}
+
+
+.findRestaurant_Image_Div_First p,.findRestaurant_Image_Div_Second p,.findRestaurant_Image_Div_Third p,.findRestaurant_Image_Div_Fourth p{
+    width:75%;
+    text-align:center;
+    color:#fff;
+    font-weight:600;
+    font-size:16px;
+    margin:auto;
+    position: relative;
+    top:50px
+}
+
+.findRestaurant_Image_Div_Second p,.findRestaurant_Image_Div_Third p,.findRestaurant_Image_Div_Fourth p{
+    top:70px
+}
+
+@media only screen and (max-width:1142px){
+    .findRestaurant_Image_Div_Second p{
+        top:55px !important
+    }
+}
+
+
+@media only screen and (max-width:1030px){
+    .findRestaurant_Image_Div_First,.findRestaurant_Image_Div_Second,.findRestaurant_Image_Div_Third,.findRestaurant_Image_Div_Fourth{
+        height:200px !important;
+        /* width:201px !important; */
+        }
+.findRestaurant_Image_Div_First p,.findRestaurant_Image_Div_Second p,.findRestaurant_Image_Div_Third p,.findRestaurant_Image_Div_Fourth p{
+top:30px;
+}
+
+.findRestaurant_Image_Div_Third p,.findRestaurant_Image_Div_Fourth p{
+    top:40px
+}
+}
+
+@media only screen and (max-width:1014px){
+    .findRestaurant_Image_Div_Second p{
+        top:30px !important
+    }
+    .findRestaurant_Image_Div_First p{
+        top: 10px !important;
+    }
+}
+
+
+@media only screen and (max-width:899px){
+    .findRestaurant_Image_Div_Second p{
+        top:50px !important
+    }
+    .findRestaurant_Image_Div_First p{
+        top: 40px !important;
+    }
+    .findRestaurant_Image_Div_Fourth p,.findRestaurant_Image_Div_Third p{
+        top: 55px !important;
+    }
+}
+
+@media only screen and (max-width:770px){
+    .breadCrumFindRestDiv{
+        width:98%
+    }
+    
+.findRestaurant_Image_Div_Second p,.findRestaurant_Image_Div_Third p,.findRestaurant_Image_Div_Fourth p{
+    top:80px !important;
+}
+    .findRestaurantMapDiv{
+        height: 500px !important;
+    }
+    .findRestaurant_Image_Div_First,.findRestaurant_Image_Div_Second,.findRestaurant_Image_Div_Third,.findRestaurant_Image_Div_Fourth{
+        height:270px !important;
+        width:271px !important;
+        margin-top: 10px  !important;
+    }
+    .findRestaurant_Image_Div_First p{
+        top:60px !important;
+        }
+}
+
+@media only screen and (max-width:800px){
+
+
+    .headerSubDiv{
+        padding-right: 100px !important;
+        margin: auto !important;
+        /* width: 90% !important; */
+    }
+}
+
+@media only screen and (max-width:660px){
+
+    .findRestaurant_Image_Div_First,.findRestaurant_Image_Div_Second,.findRestaurant_Image_Div_Third,.findRestaurant_Image_Div_Fourth{
+        height: 260px !important;
+        width: 97% !important;
+    }
+}
+
+@media only screen and (max-width:650px){
+
+.findRestaurant_Image_Div_Second p{
+    top: 70px !important;
+}
+}
+
+
+
+@media only screen and (max-width:599px){
+
+    .findRestaurant_Image_Div_First,.findRestaurant_Image_Div_Second,.findRestaurant_Image_Div_Third,.findRestaurant_Image_Div_Fourth{
+        width: 70% !important;
+    }
+    .findRestaurant_Image_Div_Third p,.findRestaurant_Image_Div_Fourth p{
+        top: 70px !important;
+    }
+    .headerSubDiv{
+        /* margin-left: 5% !important; */
+        /* width: 90% !important; */
+    }
+
+}
+
+@media only screen and (max-width:430px){
+    
+.FindRestaurants_txt{
+    font-size: 28px !important;
+    /* padding: 0px !important; */
+}
+.headerSubDiv{
+    /* margin: 0px !important; */
+    margin-right: 60px !important;
+    /* margin-left: 10% !important; */
+
+}
+.findRestMain{
+    width: 100% !important;
+}
+.findRestaurantsImagesList,.find_image_Div{
+    width: 100% !important;
+    /* margin: auto !important; */
+}
+.headerSubDiv{
+/* padding-right: 30px !important; */
+}
+.findRestaurant_Image_Div_First,.findRestaurant_Image_Div_Second,.findRestaurant_Image_Div_Third,.findRestaurant_Image_Div_Fourth{
+    height: 240px !important;
+    width: 70% !important;
+    margin-top: 10px  !important;
+}
+.findRestaurant_Image_Div_First p{
+    top:50px;
+    }
+    .findRestaurant_Image_Div_Second p,.findRestaurant_Image_Div_Third p,.findRestaurant_Image_Div_Fourth p{
+        top:70px;
+    }
+
+}
+
+@media only screen and (max-width:398px){
+    .findRestaurant_Image_Div_First p{
+        top: 50px  !important;
+    }
+}
+
+@media only screen and (max-width:380px){
+
+.headerSubDiv{
+    /* padding-right: 50px !important; */
+    }
+    .findRestaurant_Image_Div_Second p{
+        top:60px
+    }
+}
+
+
+@media only screen and (max-width:378px){
+    .findRestaurant_Image_Div_Second p{
+        top: 55px  !important;
+    }
+}
+
+
+@media only screen and (max-width:330px){
+.FindRestaurantsHeader{
+    margin-top: 25px;
+}
+    .findRestaurant_Image_Div_First,.findRestaurant_Image_Div_Second,.findRestaurant_Image_Div_Third,.findRestaurant_Image_Div_Fourth{
+        height: 220px !important;
+        width: 80% !important;
+        margin-top: 10px  !important;
+    }
+ 
+.headerSubDiv{
+    padding-right: 70px !important;
+    }   
+    .findRestaurant_Image_Div_First p{
+        top:40px !important; 
+        }
+        .findRestaurant_Image_Div_Third p,.findRestaurant_Image_Div_Fourth p{
+            top:60px !important;
+        }
+        .findRestaurant_Image_Div_Second p{
+            top:50px
+        }
+}

@@ -1,0 +1,424 @@
+.suburbHeader{
+    background-image: url('./../../Assets/image12.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    width: 100%;
+    /* height: 200px; */
+    padding-top: 90px;
+    padding-bottom: 90px;
+    /* padding-left: 20px; */
+}
+
+.suburb_txt{
+    margin-top: 100px;
+    color: white;
+    font-size: 52px;
+    font-weight: bold;
+    border-left: 8px solid #3EB2E2;
+    padding: 5px;
+    text-shadow: 2px 2px #333333;
+    padding-left: 10px;
+}
+
+.suburbDiv{
+    width: 80%;
+    /* height: 100px; */
+    /* background-color: rebeccapurple; */
+    margin:auto;
+}
+.suburbChicago{
+    padding-bottom: 3px;
+    font-weight: 700;
+    font-size: 26px !important;
+    color:#333333;
+    border-bottom: 11px solid #3EB2E2;
+}
+
+
+.image_Div{
+    color:white;
+    display: flex;
+    align-items: flex-end !important;
+
+}
+
+/* .image_Div span{
+    margin-right: 15%;
+    margin-left: 15%;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    border-left: 3px solid white;
+    border-bottom: 3px solid white;
+} */
+
+
+.first_suburb_Image_Div p,.second_suburb_Image_Div p,.third_suburb_Image_Div p{
+    width:75%;
+    text-align:center;
+    color:#fff;
+    font-weight:600;
+    font-size:16px;
+    margin:auto;
+    position: relative;
+    top:180px
+}
+.second_suburb_Image_Div p{
+    top:180px
+}
+.third_suburb_Image_Div p{
+    top:200px;
+    border: none !important;
+
+}
+
+.first_suburb_Image_Div{
+    /* background-color: black; */
+    background-image: url('./../../Assets/Group 231.jpg');
+    width: 97%;
+    height: 262px;
+    margin-right: auto;
+    /* align-self:flex-end; */
+    /* float: right; */
+    text-align: left;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    /* margin-top: 30px; */
+}
+
+.second_suburb_Image_Div{
+    /* background-color: black; */
+    background-image: url('./../../Assets/Group 232.jpg');
+    width: 96%;
+    height: 262px;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    /* margin-top: 30px; */
+}
+
+.third_suburb_Image_Div{
+    /* background-color: black; */
+    background-image: url('./../../Assets/Group 233.jpg');
+    /* align-self:flex-end; */
+    /* float: right; */
+    text-align: left;
+    width: 97%;
+    height: 262px;
+    margin-left: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    /* margin-top: 30px; */
+}
+
+
+.third_suburb_Image_Div p{
+    border-left: 3px solid white;
+}
+
+
+.sliderHeaders{
+    word-wrap: break-word;
+}
+
+
+@media only screen and (max-width:2308px){
+
+    .first_suburb_Image_Div p,.second_suburb_Image_Div p,.third_suburb_Image_Div p{
+        top:180px
+    }
+    .second_suburb_Image_Div p{
+        top:180px
+    }
+    .third_suburb_Image_Div p{
+        top:180px
+    }
+}
+
+@media only screen and (max-width:1930px){
+
+    .first_suburb_Image_Div p,.second_suburb_Image_Div p,.third_suburb_Image_Div p{
+        top:160px
+    }
+    .second_suburb_Image_Div p{
+        top:180px
+    }
+    .third_suburb_Image_Div p{
+        top:180px
+    }
+}
+
+@media only screen and (max-width:1452px){
+
+    .first_suburb_Image_Div p,.second_suburb_Image_Div p,.third_suburb_Image_Div p{
+        top:140px
+    }
+    .second_suburb_Image_Div p{
+        top:180px
+    }
+    .third_suburb_Image_Div p{
+        top:180px
+    }
+
+
+}
+
+
+
+@media only screen and (max-width:1413px){
+    .second_suburb_Image_Div p {
+        top: 160px;
+    }
+}
+
+@media only screen and (max-width:1190px){
+    .third_suburb_Image_Div p{
+        top:160px;
+    }
+}
+
+
+@media only screen and (max-width:1150px){
+    .first_suburb_Image_Div ,.second_suburb_Image_Div ,.third_suburb_Image_Div {
+    height: 220px;
+    }
+
+    .first_suburb_Image_Div p,.second_suburb_Image_Div p{
+        top: 100px;
+    }
+    .third_suburb_Image_Div p{
+        top: 120px;
+    }
+}
+
+
+@media only screen and (max-width:1030px){
+    .suburbDiv{
+        width: 94%;
+    }
+    .first_suburb_Image_Div,.second_suburb_Image_Div,.third_suburb_Image_Div{
+        width: 225px;
+        height: 222px;
+    }
+    
+    .suburb_txt{
+        font-size: 42px;
+        }
+        
+.first_suburb_Image_Div p{
+    top:105px
+}
+.second_suburb_Image_Div p{
+    top:125px
+}
+.third_suburb_Image_Div p{
+    top:125px
+}
+}
+
+@media only screen and (max-width:1012px){
+
+    .third_suburb_Image_Div p{
+        /* top: 50px; */
+    }
+
+}
+
+@media only screen and (max-width:990px){
+
+    .first_suburb_Image_Div ,.second_suburb_Image_Div ,.third_suburb_Image_Div {
+        width: 98%;
+        height: 220px;
+        }
+}
+
+@media only screen and (max-width:969px){
+
+    .second_suburb_Image_Div p{
+        top: 110px;
+    }
+    /* .third_suburb_Image_Div p{
+        top: 45px;
+    } */
+
+}
+
+@media only screen and (max-width:900px){
+
+    .first_suburb_Image_Div p,.second_suburb_Image_Div p{
+        top: 90px;
+    }
+    .third_suburb_Image_Div p{
+        top: 110px;
+    }
+    .first_suburb_Image_Div ,.second_suburb_Image_Div ,.third_suburb_Image_Div {
+        height: 200px;
+    }
+
+}
+
+@media only screen and (max-width:880px){
+
+    .first_suburb_Image_Div p{
+        top: 70px;
+    }
+
+}
+
+@media only screen and (max-width:850px){
+
+    .first_suburb_Image_Div ,.second_suburb_Image_Div ,.third_suburb_Image_Div {
+        height: 180px;
+    }
+    .first_suburb_Image_Div p{
+        top: 30px;
+    }
+    .second_suburb_Image_Div p{
+        top: 70px;
+    }
+    .third_suburb_Image_Div p{
+        top: 90px;
+    }
+
+}
+
+
+
+@media only screen and (max-width:770px){
+    .suburbDiv{
+        width: 98%;
+    }
+    .first_suburb_Image_Div,.second_suburb_Image_Div,.third_suburb_Image_Div{
+        width: 98%;
+        height: 177px;
+    }
+    .first_suburb_Image_Div p{
+        top:30px
+    }
+    .second_suburb_Image_Div p{
+        top:70px
+    }
+    .third_suburb_Image_Div p{
+        top:90px
+    }
+    
+}
+
+
+@media only screen and (max-width:665px){
+
+    .first_suburb_Image_Div ,.second_suburb_Image_Div ,.third_suburb_Image_Div {
+    height: 160px;
+    }
+    .third_suburb_Image_Div p {
+        top: 50px;
+    }
+    .first_suburb_Image_Div p{
+        top: 10px;
+    }
+    .second_suburb_Image_Div p{
+        top: 50px;
+    } 
+
+}
+
+
+@media only screen and (max-width:599px){
+    .first_suburb_Image_Div,.second_suburb_Image_Div,.third_suburb_Image_Div{
+        width: 75% !important;
+        margin: auto;
+        height: 250px !important;
+        margin-top: 5px;
+    }
+    
+    .first_suburb_Image_Div p{
+        top:170px
+    }
+    .second_suburb_Image_Div p{
+        top:170px
+    }
+    .third_suburb_Image_Div p{
+        top:170px
+    }
+    .kid_txt{
+        border-left: 9px solid #3EB2E2;
+        font-size: 38px;
+        }
+.kid_txt{
+    width: 100% !important;
+}
+}
+
+@media only screen and (max-width:515px){
+
+    .first_suburb_Image_Div p{
+        top: 150px;
+    }
+
+}
+
+
+
+@media only screen and (max-width:430px){
+    .first_suburb_Image_Div,.second_suburb_Image_Div,.third_suburb_Image_Div{
+        width: 85% !important;
+        margin: auto;
+        height: 250px !important;
+        margin-top: 5px;
+    }
+.suburbDiv{
+    width: 100% !important;
+}
+.first_suburb_Image_Div p{
+    top:150px
+}
+.second_suburb_Image_Div p{
+    top:170px
+}
+.third_suburb_Image_Div p{
+    top:170px
+}
+
+.suburb_txt{
+    border-left: 9px solid #3EB2E2;
+    font-size: 38px;
+    }
+}
+
+
+@media only screen and (max-width:320px){
+    .first_suburb_Image_Div,.second_suburb_Image_Div,.third_suburb_Image_Div{
+        width: 90% !important;
+        margin: auto;
+        height: 230px !important;
+        margin-top: 5px;
+    }
+
+    .first_suburb_Image_Div p{
+        top:135px
+    }
+    .second_suburb_Image_Div p{
+        top:155px
+    }
+    .third_suburb_Image_Div p{
+        top:155px
+    }
+}
+
+@media only screen and (max-width:305px){
+
+    .first_suburb_Image_Div p{
+        top: 110px;
+    }
+    .second_suburb_Image_Div p{
+        top:130px;
+    }
+
+}

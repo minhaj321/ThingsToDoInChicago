@@ -1,0 +1,485 @@
+.calenderIcon,.heartIcon{
+    margin-top: 2px !important;
+}
+
+.btn-learn-more{
+    font-size: 12px !important;
+}
+.ConventionsFirstDiv{
+    width: 83%;
+    text-align: left;
+    /* background-color: #333333; */
+    margin-left:auto;
+    margin-right:20px
+}
+
+
+.ConventionsSecondDiv{
+    width:60%;
+    margin-left: 15%;
+}
+
+.Conventions-div{
+    width:90%;
+    height:600px;
+    background-color: #F4F4F4;
+}
+
+.save-up-to-paragraph{
+    line-height: 25px !important;
+    font-size: 16px !important;
+    font-weight: 600;
+}
+.Conventions-ul{
+    /* margin-top: 40px; */
+    /* margin-left: 10px; */
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 23px;
+    color:#8C8C8C;
+}
+.btn-explore-more{
+    border: 1px solid white !important;
+    color:#4DC4F1 !important;
+    border-radius: 0px !important;
+    text-transform:capitalize !important;
+    padding: 10px 30px 10px 30px !important;
+}
+.Conventions-twitter-icon{
+    width:37px;
+}
+.Conventions-message-icon{
+    width:37px;
+}
+.Conventions-instagram-icon{
+    width:37px;
+}
+.publisher-paragraph{
+    line-height: 27px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.publisher-paragraph span{
+    color:#3DB2E2;
+}
+.Conventions-facebook-icon{
+    width:37px;
+}
+.Conventions-ul li{
+    padding: 5px;
+}
+.Conventionss-div1{
+    width:30%;
+    background-color: #333333;
+    margin:auto;
+    margin-top: 40px;
+}
+.Conventions-div2{
+    width:300px;
+    height:180px;
+    background-color:#F2F6FF;
+   
+
+}
+.Conventions-icons{
+    cursor: pointer;
+    background-image : url('../../Assets/Rectangle\ 208.png'); 
+    width:200px;
+    text-align: center;
+    height: 35px;
+    font-weight: 500;
+    font-size: 14px;
+    /* font-weight: bold; */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-top: 3px;
+    margin-left: 50px;
+    margin-top: 30px;
+  
+    
+    
+}
+.Conventions-icons1{
+    cursor: pointer;
+    background-image : url('../../Assets/Rectangle\ 208.png'); 
+    width:200px;
+    text-align: center;
+    height: 35px;
+    font-weight: 500;
+    font-size: 14px;
+    /* font-weight: bold; */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-top: 3px;
+    margin-left: 50px;
+    margin-top: 40px;
+   
+}
+
+@media only screen and (max-width:2020px){
+
+.Conventionss-div1{
+    width: 40%;
+}
+}
+
+@media only screen and (max-width:2020px){
+
+    .Conventionss-div1{
+        width: 52%;
+    }
+    }
+
+@media only screen and (max-width:1870px){
+    .ConventionsSecondFirstDIv{
+        width: 65% !important;
+    }
+}
+    
+@media only screen and (max-width:1440px){
+    .yutagar-img1,.yutagar-img2{
+    height: 410px !important;
+}
+}
+
+@media only screen and (max-width:1280px){
+.ConventionsSecondFirstDIv{
+    width: 73% !important;
+}
+}
+
+
+@media only screen and (max-width:1145px){
+
+.btn-explore-more{
+    width: 160px;
+    /* padding-left: 0px !important; */
+}
+.ConventionsSecondFirstDIv{
+    width: 78% !important;
+}
+.Conventionss-div1{
+    width: 65%;
+}
+}
+
+@media only screen and (max-width:1100px){
+
+.yutagar-img1{
+height:350px !important ;
+}
+
+}
+
+@media only screen and (max-width:1024px){
+    
+.btn-explore-more{
+    width: 160px;
+}
+    .Conventions-div{
+        height:700px !important;
+       
+    }
+    .get-convenient{
+        font-size: 14px !important;
+    }
+.Conventionss-div1{
+    width:70%;
+}
+.ConventionsSecondFirstDIv{
+    width: 85% !important;
+}
+
+}
+
+@media only screen and (max-width:940px){
+
+    .ConventionsSecondFirstDIv{
+        width: 95% !important;
+    }
+}
+
+@media only screen and (max-width:1100px){
+
+    .yutagar-img1,.yutagar-img2{
+    height:320px !important ;
+    }
+    
+    }
+
+@media only screen and (max-width:900px){
+    .ConventionsSecondDiv{
+        width: 90%;
+        margin-left:0px !important;
+    }
+    .ConventionsSecondFirstDIv{
+        width: 85% !important;
+    }
+    .see-magic-heading{
+    margin-left: 10px !important;
+    }
+.ConventionsFirstDiv{
+
+    text-align: left;
+    width: 96% !important;
+    margin:auto !important;
+}
+.viewMyCalTxt,.viewMyFavTxt{
+    font-size: 13px !important;
+}
+.calenderIcon,.heartIcon{
+    width: 80% !important;
+}
+.heartIcon{
+    margin-top: 4px !important;
+}
+    .this-week-heading{
+        margin-left: -200px !important;  
+    }
+    .feature-div{
+      margin-left: 180px !important;
+    }
+    .recommended-div{
+        margin-left: 180px !important;
+    }
+    .give-way-div{
+        margin-left: 180px !important;
+    }
+    .this-week-div{
+        margin-left: 180px !important;
+    }
+    .Conventionss-div1{
+        width:80% !important;
+      }
+      .Conventions-hr{
+          width: 95% !important;
+    }
+    .Conventions-div{
+        width: 98% !important;
+    }
+}
+
+@media only screen and (max-width:899px){
+
+    .viewMyCalTxt,.viewMyFavTxt{
+        font-size: 12px !important;
+    }
+    
+}
+
+@media only screen and (max-width:885px){
+.btn-explore-more{
+    /* width: 130px; */
+    margin-right: 1px !important;
+}
+.see-magic-heading{
+    text-align: left;
+    margin-left: 20px;
+}
+}
+
+@media only screen and (max-width:740px){
+
+    .btn-explore-more{
+        width: 90px !important;
+    }
+}
+
+@media only screen and (max-width:699px){
+
+    .yutagar-img1,.yutagar-img2{
+        height: 270px !important;
+    }
+
+}
+
+@media only screen and (max-width:599px){
+    .calenderIcon,.heartIcon{
+        height: 20px !important;
+        /* width: 10% !important; */
+    }
+    .ConventionsSecondDiv{
+        width: 50% !important;
+        margin: auto !important;
+    }
+    .Conventionss-div1{
+        width: 95% !important;
+    }
+}
+
+
+@media only screen and (max-width:425px){
+
+    .ConventionsSecondDiv{
+        width: 100% !important;
+        margin: auto !important;
+    }
+.see-magic-heading{
+    text-align: left;
+    padding-left: 0px !important;
+}
+
+.festival-image10{
+    width: 100px !important;
+    height:100% !important;
+    /* height: 150px !important; */
+}
+
+.festivals-div1{
+height: 100% !important;
+}
+.ConventionsSecondFirstMainDIv{
+    width: 80% !important;
+    margin: auto;
+}
+.ConventionsSecondFirstDIv{
+    width: 60% !important;
+}
+
+.calenderIcon,.heartIcon{
+    width: 60% !important;
+}
+.viewMyCalTxt,.viewMyFavTxt{
+    font-size: 16px !important;
+}
+
+    .best-thing-heading{
+        /* margin-left: -5px !important; */
+        font-size: 22px !important;
+    }
+    .Conventionss-icon{
+        text-align: left !important;
+    }
+    .publisher-paragraph,.cheerHearing{
+        text-align: left;
+    }
+    .ConventionsFirstDiv{
+        width: 99% !important;
+        margin: auto;
+        /* text-align: center; */
+        /* text-align: center !important; */
+    }
+    .best-thing-heading{
+        text-align: left;
+    }
+.Conventionss-div1{
+    height:219px !important;
+    width: 98% !important;
+}
+.ConventionsSecondDiv{
+    width: 100%;
+}
+.mobile-img{
+    width:90% !important;
+    height:250px !important;
+}
+.yutagar-img12{
+    width:100% !important;
+}
+.Conventions-div{
+    /* margin-left: 30px; */
+    width:95% !important;
+    height: 760px !important;
+   
+}
+.Conventions-image10{
+    width:90% !important;
+    height:140px !important;
+}
+.miracle-heading{
+    font-size: 14px !important;
+    margin-left: 1px !important;
+}
+.chicago-most-magical{
+    font-size: 11px !important;
+    margin-left: 1px !important;
+}
+.btn-explore-more{
+    font-size: 10px !important;
+    /* padding-left: 1px !important; */
+    width: 90% !important;
+    /* padding-left: 13px !important; */
+}
+  
+}
+
+@media only screen and (max-width:399px){
+
+.yutagar-img1,.yutagar-img2{
+    height: 250px !important;
+}
+
+}
+
+@media only screen and (max-width:350px){
+
+    .yutagar-img1,.yutagar-img2{
+        height: 220px !important;
+    }
+}
+
+@media only screen and (max-width:375px){
+    .Conventionss-div1{
+        width: 98% !important;
+        margin-left: 2px !important;
+    }
+    .Conventions-div{
+             height: auto !important;  
+             padding-bottom: 20px;
+    }
+    .miracle-heading{
+        font-size: 12px !important;
+        margin-left: 1px !important;
+    }
+}
+@media only screen and (max-width:320px){
+    .Conventionss-div1{
+        width: 99% !important;
+       
+    }
+        .yutagar-img1{
+        /* height: 250px !important; */
+        /* width:320px !important; */
+    }
+    .yutagar-img2{
+        /* height: 250px !important; */
+
+        /* width: 320px !important; */
+    }
+    .mobile-img{
+        height: 220px !important;
+    }
+    .written-by-heading{
+        margin-left: -1px !important;
+    }
+
+    .Conventions-image10{
+        /* width:100px !important; */
+        height: 145px !important;
+    }
+    .miracle-heading{
+        font-size: 10px !important;
+        margin-left: 1px !important;
+    }
+
+    .see-magic-heading{
+        font-size: 10px !important;
+        /* padding-left: 1px !important; */
+    }
+    .chicago-most-magical{
+        font-size: 10px !important;
+        margin-left: 1px !important;
+    }
+    .publisher-paragraph{
+        font-size: 12px !important;
+    }
+    .Conventions-div{
+     
+        height: 850px !important;
+       
+    }
+    .ConventionsSecondFirstDIv{
+        width: 80% !important;
+    }
+    
+}

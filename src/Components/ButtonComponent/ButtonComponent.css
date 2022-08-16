@@ -1,0 +1,28 @@
+.buttonMain{
+    display: none;
+}
+
+.bookBtn{
+    height:50px;
+    background-color: #3e80e2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+}
+
+.bookTxt{
+    color: #fff;
+}
+
+@media only screen and (max-width:599px){
+    .buttonMain{
+        display: block;
+        position: fixed;
+        z-index: 2;
+        bottom: 0px;
+        background-color: #fff;
+        height: 100px;
+        width: 100%;
+    }
+}

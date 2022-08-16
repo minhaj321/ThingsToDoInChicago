@@ -1,0 +1,63 @@
+.imageModalImageDiv{
+    width:60vh;
+    height:60vh;
+    /* background-color: red; */
+}
+.four{
+    /* height:auto;
+    width: auto;
+    margin-top: 15vh; */
+    background-image: url('./../../Assets/iceCream1.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+}
+
+.three{
+    /* height:auto; */
+    /* width: auto; */
+    /* margin-top: 15vh; */
+    background-image: url('./../../Assets/yutacar-JKMnm3CIncw.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+}
+
+.one{
+    /* height:auto; */
+    /* width: auto; */
+    /* margin-top: 15vh; */
+    background-image: url('./../../Assets/anton-8eG73NjiHao-unsplash11.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+}
+
+.two{
+    /* height:auto;
+    width: auto;
+    margin-top: 15vh; */
+    background-image: url('./../../Assets/cheeseImg1.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+}
+
+
+@media only screen and (max-width:1800px){
+    .imageModalImageDiv{
+        width:60vh;
+        height:60vh;
+        /* background-color: red; */
+    }
+}
+
+
+@media only screen and (max-width:650px){
+    .closeX{
+        margin-top: -20vh !important;
+    }
+}
+
+
+

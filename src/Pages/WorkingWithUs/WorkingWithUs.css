@@ -1,0 +1,483 @@
+.workingForScroll{
+    height: 230vh;
+}
+.event-type,.business-type{
+    appearance: none !important;
+}
+.submit-checkbox label span div{
+    height:14px !important;
+    width:14px !important
+}
+.working-with-us-heading{
+    font-family: 'Poppins', sans-serif;  
+    font-weight: 800;
+}
+.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color:#CECECE;
+    opacity: 1; /* Firefox */
+}
+.working-with-us-paragraph{
+    font-family: 'Poppins', sans-serif;  
+    line-height: 1.5;
+    
+}
+
+/* .list-business label{
+    color: #A1A1A1;
+    font-weight: 500;
+} */
+.instaLink{
+    border: none;
+    background-color: transparent;
+    font-size: 11px;
+    font-weight: 600;
+    border-bottom: 2px solid #3EB2E2;
+    width: 90%;
+    margin-bottom:10px;
+}
+.instaLink:focus{
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #3EB2E2;
+}
+.submit-checkbox label span{
+font-size: 13px !important;
+color:#333333;
+position: relative;
+top: -5px;
+left:10px
+} 
+
+.workingUnderline{
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    text-decoration-thickness: 2.5px;
+    text-decoration-color: #3EB2E2;
+}
+
+.submit-checkbox1 label span{
+    font-size: 14px !important;
+    color:#333333;
+    font-weight: 400;
+    position: relative;
+    top: -5px;
+    /* left:10px */
+    letter-spacing: 0.2px;
+    } 
+
+.searchNowIconBtnWorking{
+    /* width: 100%; */
+    cursor: pointer;
+    padding-top: 6.5px;
+    padding-bottom: 6.5px;
+    color:white;
+    background-color: #3FB3E4;
+}
+
+.working-with-us-img{
+    background-image: url('../../Assets/CityPASS-MobileTIicket-Phone.png');
+    width:100%;
+    /* height: 400px; */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-left: 29%;
+    padding-right: 29%;
+}
+
+
+.working_form_sub{
+width:75%;
+margin: auto;
+}
+
+.event-type,.business-type{
+    color:#838383
+}
+
+.website-link-textfield,.ticket-website-link-textfield,.business-address,.business-type,.event-textfield,.event-type,.business-textfield,.phone-textfield,.email-textfield,.last-name-textfield,.first-name-textfield,.detail-description{
+    border: 2px solid #e6e6e6;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+.working-form-section{
+    width:65%;
+    /* height: 1100px; */
+    padding-bottom: 20px;
+    background-color: #F4F4F4;
+     margin: auto;
+     margin-top: 20px;
+}
+
+.last-name-textfield{
+    width:90%;
+    height:45px;
+}
+
+@media only screen and (max-width:1440px){
+.firstDropDownIcon{
+    right:15px !important;
+    top:-31px !important; 
+}
+.secondDropDownIcon{
+    right:22px !important;
+    top:-31px !important;
+}
+.workingForScroll{
+    height: 500vh !important;
+}
+
+}
+
+@media only screen and (max-width:1199px){
+
+.instaLink{
+    width: 65%;
+}
+.workingForScroll{
+    height: 230vh !important;
+}
+
+}
+
+@media only screen and (max-width:1024px){
+    .first-name-textfield{
+        width: 90% !important;
+        margin: auto !important;
+    }
+    .instaLink{
+    width: 75%;
+    }
+    .last-name-textfield{
+        width: 90% !important;
+    }
+    .email-textfield{
+        width: 90% !important;
+    }
+    .phone-textfield{
+        width: 90% !important;
+    }
+    .business-textfield{
+        width: 90% !important;
+    }
+    .event-textfield{
+        width: 90% !important;
+    }
+    .event-type{
+        width: 97% !important;
+        left:0px !important
+    }
+    .firstDropDownIcon{
+        float: right !important;
+        top: -30.7px !important;
+        right: 7px !important;
+}
+.secondDropDownIcon{
+    right: 11.2px !important;
+    float: right !important;
+    top: -30.7px !important;
+}
+    .business-type{
+        width: 97% !important;
+    }
+    .business-address{
+        width: 98% !important;
+    }
+    .detail-description{
+        width: 98% !important;
+    }
+    .facebook-hr{
+        margin-left: 5px !important;
+    }
+    .instagram-hr{
+        margin-left: 5px !important;
+    }
+    .google-review-hr{
+        margin-left: 5px !important;
+    }
+    .trip-advisor-hr{
+        margin-left: 5px !important; 
+    }
+    .ticket-price-select{
+        width:100% !important
+    }
+    .working-with-us-img{
+        padding-left: 15%;
+        padding-right: 15%;
+
+    }
+   
+}
+
+@media only screen and (max-width:899px){
+    .tickWebLinKMain{
+    padding-left: 0px !important;
+    margin-left: 0px !important;
+}
+.workingForScroll{
+    /* height: 262vh; */
+}
+
+.instaLink{
+    width: 85% !important;
+}
+}
+
+@media only screen and (max-width:768px){
+    
+.secondDropDownIcon{
+    right: 8px !important;
+    float: right !important;
+    top: -30.7px !important;
+}
+    .submit-checkbox1 label span{
+        font-size: 12px !important;
+    }
+    .working-with-us-img{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .instaLink{
+        width: 80% !important;
+    }
+        
+    .workingBreadcrum{
+        width: 98%;
+    }
+    .working_form_sub{
+        width:80% !important;
+    }
+    .submit-label{
+        font-size: 12px !important;
+    }
+    .working-form-section{
+        width:80%;
+    
+    }
+   
+    .list-business-label{
+        font-size: 12px !important;
+    }
+    .submit-event-label{
+        font-size: 12px !important;  
+    }
+    .first-name-textfield{
+        width: 90% !important;
+    }
+    .last-name-textfield{
+        width: 90% !important;
+    }
+    .email-textfield{
+        width: 90% !important;
+    }
+    .phone-textfield{
+        width: 90% !important;
+    }
+    .business-textfield{
+        width: 90% !important;
+    }
+    .event-textfield{
+        width: 90% !important;
+    }
+    .grid-lastname-textfield{
+        /* padding-top: 10px !important; */
+    }
+    .event-type{
+        width: 97% !important;
+    }
+    .business-type{
+        width: 98% !important;
+    }
+    .tickWebLinKMain{
+        padding-left: 0px !important;
+        margin-left: 0px !important;
+    }
+    .business-address{
+        width: 98% !important;
+    }
+    .detail-description{
+        width: 98% !important;
+    }
+    .grid-business-textfield{
+        /* margin-left: 40px !important; */
+        padding-top: 20px !important;
+    }
+    .ticket-website-link-label{
+        margin-top: 20px !important;
+    }
+        .ticket-price-select{
+            width: 100% !important;
+        }
+}
+
+@media only screen and (max-width:680px){
+    
+.instaLink{
+    width: 85% !important;
+}
+
+}
+
+@media only screen and (max-width:599px){
+    .last-name-textfield{
+        margin-top: 10px;
+    }
+    .firstDropDownIcon{
+        right: 4px !important;
+}
+.instaLink{
+width: 70% !important;
+}
+.secondDropDownIcon{
+    right: 4px !important;
+}
+
+    .working-with-us-img h1{
+        font-size: 38px !important;
+    }
+    .working-with-us-img h5{
+        font-size: 16px !important;
+    }
+    
+    .working-with-us-img h3{
+        font-size: 20px !important;
+    }
+    .first-name-textfield{
+        width: 96% !important;
+    }
+   
+    .trip-advisor-hr,.google-review-hr,.facebook-hr,.instagram-hr{
+        margin: auto !important;
+    }
+    .last-name-textfield{
+        width: 96% !important;
+        /* width: 200px !important; */
+    }
+    .email-textfield{
+        width: 96% !important;
+        /* width: 200px !important; */
+    }
+    .phone-textfield{
+        width: 96% !important;
+        /* width: 200px !important; */
+    }
+    .business-textfield{
+        width: 96% !important;
+        /* width: 200px !important;  */
+    }
+    .event-textfield{
+        width: 96% !important;
+        /* width: 200px !important; */
+    } 
+    .grid-first-name-textfield{
+        padding: 0px !important;
+    }
+    .grid-lastname-textfield{
+        padding: 0px !important;
+        margin: 0px !important;
+    }
+    .grid-email-textfield{
+        padding-left: 0px !important;  
+    }
+    .grid-business-name-textfield{
+        padding-left: 0px !important;  
+    }
+    .event-type{
+        width: 100.5% !important;
+        /* width: 200px !important;   */
+        margin-left: 0px !important;
+    }
+    .business-type{
+        width: 100.5% !important;
+        /* width: 200px !important; */
+        /* margin-left: -40px !important; */
+        margin-top: -20px !important;
+    }
+    .business-address{
+        margin-top: -40px !important;
+        /* margin-top: 0px !important; */
+        /* width:200px !important; */
+    }
+    .detail-description{
+        /* width:200px !important; */
+    }
+    .grid-business-address{
+        padding-left: 0px !important;
+    }
+    .grid-detail-description{
+        padding-left: 0px !important;
+    }
+    .website-link-textfield{
+        /* width:200px !important; */
+        margin-left:0px !important
+    }
+    .instagram-hr,.facebook-hr,.trip-advisor-hr,.google-review-hr{
+        width: 70% !important;
+    }
+        .ticket-price-select{
+            width:100% !important;
+        }
+        .working-label1{
+            font-size: 13px !important;
+        }
+        .working-form-section{
+            width:85% !important;
+            /* height: 1750px !important; */
+        }
+}
+
+@media only screen and (max-width:460px){
+
+.instaLink{
+    width: 85% !important;
+}
+
+}
+
+@media only screen and (max-width:390px){
+    .first-name-textfield{
+        width: 94% !important;
+    }
+   
+    .trip-advisor-hr,.google-review-hr,.facebook-hr,.instagram-hr{
+        margin: auto !important;
+    }
+    .last-name-textfield{
+        width: 94% !important;
+        margin-top: 10px !important;
+    }
+    .email-textfield{
+        width: 94% !important;
+    }
+    .phone-textfield{
+        width: 94% !important;
+    }
+    .business-textfield{
+        width: 94% !important;
+    }
+    .event-textfield{
+        width: 94% !important;
+    } 
+    .instaLink{
+        width: 90% !important;
+    }
+}
+
+
+@media only screen and (max-width:320px){
+    
+    .working-form-section{
+        width:93% !important;
+    }
+    
+.instaLink{
+    width: 95%;
+    }
+    .working-with-us-img{
+        width: 100% !important;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    .submit-checkbox1 label span{
+        font-size: 14px !important;
+    }
+}

@@ -1,0 +1,136 @@
+.paymentMain{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top:50px;
+}
+.yellowBtnPayemnt{
+    width: 100%;
+    height: 35px;
+    background-color: gold;
+    display: flex;
+    font-size: 14px;
+    justify-content: center;
+    align-items: center;
+}
+.paypalIcon{
+    margin-top:5px
+}
+.paymentSecond{
+    width:100%;
+    background:orange;
+    color:#333333 !important;
+    padding-top:7px;
+    padding-bottom: 7px;
+}
+
+.paymentFirst{
+    width:100%;
+    background:tomato;
+    color:#333333 !important;
+    padding-top:7px;
+    padding-bottom: 7px;
+
+}
+.paymentThird{
+    color:#333333 !important;
+    width:100%;
+    background:rgb(77, 211, 77);
+    padding-top:7px;
+    padding-bottom: 7px;
+
+}
+.blueBtnPayemnt{
+    width: 100%;
+    height: 35px;
+    margin-top: 5px;
+    color:#fff;
+    background-color: navy;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    justify-content: center;
+}
+
+.blackBtnPayemnt{
+    width: 100%;
+    height: 35px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: #333333;
+    display: flex;
+    color:#fff;
+    align-items: center;
+    font-size: 14px;
+    justify-content: center;
+}
+
+
+.payemntDiv{
+    width: 30vw;
+}
+
+.paymentSubDiv{
+    box-shadow: 0px 0px 10px 1px #afafaf;
+    /* border: 2px #333333 solid; */
+}
+.secondSubDiv{
+    width: 90%;
+    margin: auto;
+    text-align: left;
+}
+.paymentUlList{
+    margin-left:0px;
+  list-style: none;
+  /* list-style-type:disc */
+}
+
+.paymentUlListFirst li::before {
+  content: "\2022";
+  color: tomato;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
+.paymentUlListSecond li::before {
+    content: "\2022";
+    color: orange;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+  }
+  .paymentUlListThird li::before {
+    content: "\2022";
+    color: green;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+  }
+
+@media only screen and (max-width:730px){
+    .paymentMain{
+        flex-direction: column;        
+    }
+    .payemntDiv{
+        width: 50vw;
+        margin-left: 25vw;
+    }
+    .secondPayment{
+        margin-top:50px
+    }
+    .thirdPayment{
+        margin-top:50px
+    }
+
+}
+
+@media only screen and (max-width:599px){
+    .payemntDiv{
+        width: 70vw;
+        margin-left: 15vw;
+    }
+    
+}

@@ -1,0 +1,491 @@
+.FIND_Img2,.FIND_Img1,.FIND_Img3,.FIND_Img4,.FIND_Img5{
+    border-radius: 3px !important; 
+}
+.FIND_Img2:hover,.FIND_Img1:hover,.FIND_Img3:hover,.FIND_Img4:hover,.FIND_Img5:hover{
+
+opacity: 0.9;
+
+}
+.restaurant-div{
+    width:300px;
+    /* height:180px; */
+    background-color:#F2F6FF;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+  
+}
+
+/* .findResShareDiv{
+    width:110px !important
+}
+.findResFavouriteDiv{
+    width:200px !important;
+    margin-left: -60px;
+} */
+
+.viewMyCalTxt,.viewMyFavTxt{
+    margin-left:-10px
+}
+
+.detailsShareDiv{
+    padding-right:5px !important
+}
+
+.ConventionsSecondFirstMainDIv{
+    margin-top: 30px !important;
+}
+
+.findRestCheckTxt{
+position: relative;
+font-size: 16px;
+top: -5px;
+}
+
+.businessOwnedTxt{
+    position: relative;
+    color: #345F7E;
+    top: -5px;
+    font-size: 14px;
+}
+
+@media only screen and (max-width:1800px){
+
+    .videoPlayerImg{
+        margin-top: 0px !important;
+        margin-bottom: 0px !important;
+    }
+
+}
+
+@media only screen and (max-width:1732px){
+
+    .findRestBackDiv{
+        /* top:656px !important; */
+    }
+
+}
+
+@media only screen and (max-width:1640px){
+
+.findResViewTableDiv,.findResViewMoreDiv{
+width:90% !important;
+}
+}
+
+
+@media only screen and (max-width:1532px){
+
+    .findRestBackDiv{
+        top:626px !important;
+    }
+}
+
+@media only screen and (max-width:1488px){
+
+    .findRestBackDiv{
+        /* top:656px !important; */
+    }
+}
+
+@media only screen and (max-width:1440px){
+
+    .findResViewTableDiv,.findResViewMoreDiv{
+        width:94% !important;
+    }
+    .findRestBackDiv{
+        top:440px !important;
+    }
+    }
+    
+
+@media only screen and (max-width:1199px){
+
+.findResShareDiv{
+width: 90px !important;
+}
+.detailsFavouriteDiv{
+    /* width: 180px !important; */
+}
+}
+
+@media only screen and (max-width:1030px){
+
+    
+.detailsFavouriteDiv{
+    margin-left: 0px !important;
+}
+
+}
+
+@media only screen and (max-width:1026px){
+    .FIND_Img1,.FIND_Img2,.FIND_Img3,.FIND_Img4,.FIND_Img5{
+        width: 100% !important;
+    }
+    .restaurant-image{
+        width: 300px !important;
+    }
+    .restaurant-image1{
+        width: 170px !important;
+    }
+    .restaurant-image2{
+        width: 170px !important;
+    }
+    .restaurant-image3{
+        width: 170px !important;
+    }
+    .restaurant-image4{
+        width: 170px !important;
+    }
+    .restaurant-div{
+        margin-left: 10px !important;
+        margin-top: 30px !important;
+    }
+    .findRestDiningTxt{
+        margin-left: 10px !important;
+    }
+    .restaurant-chicago-heading{
+        font-size: 14px !important;
+    }
+    .span-restaurant-heading{
+        padding-right: 130px !important;
+    }
+    .select-group-amenties{
+        min-width:650px !important;
+    }
+    .restaurant-rating{
+        padding-right: 140px !important;
+    }
+}
+
+@media only screen and (max-width:960px){
+.findRestBackDiv{
+    top:415px !important;
+}
+}
+
+@media only screen and (max-width:950px){
+    
+    .detailsFavouriteDiv{
+        /* width: 173px !important; */
+    }    
+    .detailsShareDiv{
+        width: 83px !important;
+    }
+
+}
+
+@media only screen and (max-width:920px){
+
+    .findRestBackDiv{
+        /* top:295px !important; */
+    }
+    
+    .findRestBackDiv{
+        /* top:440px !important; */
+    }
+
+    }
+    
+@media only screen and (max-width:919px){
+
+    /* .findImg11{
+        height: 250px !important;
+    }
+    .findImg12,.findImg13,.findImg14,.findImg15{
+    height: 122px !important;
+    } */
+    .findRestBackDiv{
+        /* top:400px !important; */
+    }
+    
+    }
+
+@media only screen and (max-width:900px){
+.FindRestSecFirstMainDiv{
+    width: 80% !important;
+    margin: auto !important;
+}
+.findRestMapDiv{
+    margin: auto !important;
+    margin-left: 35px !important;
+    margin-top: 20px !important;
+}
+.findRestHeartIcon,.findRestCalIcon{
+    width: 40px !important;
+    height: 25px !important;
+}
+}
+
+@media only screen and (max-width:899px){
+
+    .findRestBackDiv{
+        height:165px !important;
+        top:950px !important;
+    }
+    .forteenParis{
+        font-size: 30px !important;
+    }
+    }
+ 
+@media only screen and (max-width:820px){
+    .findRestBackDiv{
+        top:860px !important;
+    }
+
+}
+
+@media only screen and (max-width:768px){
+    .FIND_Img2,.FIND_Img3,.FIND_Img4,.FIND_Img5{
+        width: 100% !important;
+        height: 97% !important;
+    }
+    .FIND_Img1{
+        height: 100% !important;
+    }
+    .restaurant-image{
+        width: 330px !important;
+    }
+    .findRestFirstMain{
+        width: 99.5% !important;
+        padding-bottom: 40px !important;
+    }
+    .findRestMapDiv{
+        width: 90% !important;
+        margin-left: 0px !important;
+    }
+    .restaurant-image1{
+        width: 200px !important;
+        margin-left: 70px !important;
+    }
+    .restaurant-image2{
+     width: 200px !important;
+     margin-left: 70px !important;
+    }
+    .restaurant-image3{
+        width: 200px !important;
+        margin-left: 20px !important;
+    }
+    .restaurant-image4{
+        width: 200px !important;
+        margin-left: 20px !important;
+    }
+    .restaurant-div{
+
+        margin: auto !important;
+       
+       
+    }
+    .restaurant-rating{
+        padding-right: 40px !important;
+    }
+   .ConventionsSecondFirstMainDIv{
+       margin-left: 0px !important;
+       width: 98% !important;
+       margin: auto !important;
+       margin-top: 50px !important;
+   }
+
+.findRestBackDiv{
+    background-color: transparent;
+}
+
+}
+
+@media only screen and (max-width:650px){
+
+    .findImg11{
+        height: 220px !important;
+    }
+    .findImg12,.findImg13,.findImg14,.findImg15{
+    height: 107px !important;
+    }
+
+}
+
+@media only screen and (max-width:615px){
+.forteenParis{
+    font-size: 24px !important;
+}
+.findRestBackDiv{
+    height: 145px !important;
+}
+}
+
+@media only screen and (max-width:600px){
+    .forteenParis{
+        font-size: 24px !important;
+    }
+    .findRestBackDiv{
+        top: 840px !important;
+    }
+    }
+    
+@media only screen and (max-width:599px){
+
+    .findRestMapDiv{
+    margin: auto !important;
+    margin-top: 20px !important;
+    }    
+
+}
+@media only screen and (max-width:430px){
+    .findRestBackDiv{
+        top: 800px !important;
+    }
+
+}
+
+@media only screen and (max-width:425px){
+
+
+    .findRestMapDiv{
+        width: 80% !important;
+        margin: auto !important;
+        margin-top: 10px !important;
+    }
+    .select-group-amenties{
+        min-width:300px !important;
+    }
+    .restaurant-description{
+        font-size: 20px !important;
+    }
+    .restaurant-paragraph{
+        font-size: 14px !important;
+    }
+    .restaurant-contact-heading{
+        font-size: 20px !important; 
+    }
+    .restaurant-email-heading{
+        font-size: 14px !important;
+    }
+    .restaurant-contact1-heading{
+        font-size: 14px !important;
+    }
+
+    .restaurant-location-heading{
+        font-size: 20px !important;
+    }
+    .restaurant-chicago-heading{
+        font-size: 14px !important;
+        padding-left:30px !important;
+    }
+    .minority-heading{
+        font-size:14px !important;
+    }
+    .restaurant-btn-view-more{
+        width:120px !important;
+    }
+    .restaurant-div{
+
+        margin-left: 60px !important;
+       
+       
+    }
+    .restaurant-image{
+        width: 400px !important;
+        margin-left: 15px !important;
+    }
+    .restaurant-image1{
+        width: 200px !important;
+        margin-left: 120px !important;
+    }
+    .restaurant-image2{
+     width: 200px !important;
+     margin-left: 120px !important;
+    }
+    .restaurant-image3{
+        width: 200px !important;
+        margin-left: 120px !important;
+    }
+    .restaurant-image4{
+        width: 200px !important;
+        margin-left: 120px !important;
+    }
+    .restaurant-rating{
+        padding-left: 30px !important;
+    }
+
+
+}
+@media only screen and (max-width:375px){
+    .videoPlayerImg{
+        height: 250px !important;
+    }
+    .restaurant-paragraph{
+        font-size: 12px !important;
+    }
+    .restaurant-image{
+        width: 350px !important;
+        margin-left: 10px !important;
+    }
+    .restaurant-image1{
+        width: 200px !important;
+        margin-left: 90px !important;
+    }
+    .restaurant-image2{
+     width: 200px !important;
+     margin-left: 90px !important;
+    }
+    .restaurant-image3{
+        width: 200px !important;
+        margin-left: 90px !important;
+    }
+    .restaurant-image4{
+        width: 200px !important;
+        margin-left: 90px !important;
+    }
+    .restaurant-div{
+
+        margin-left: 40px !important;
+       
+       
+    }
+}
+
+@media only screen and (max-width:370px){
+    .findRestBackDiv{
+    top: 760px !important;
+}
+}
+
+@media only screen and (max-width:350px){
+
+.detailsFavouriteDiv{
+    margin-left: 15px !important;
+}
+
+}
+
+@media only screen and (max-width:320px){
+
+.restaurant-image{
+    width: 300px !important;
+    margin-left: 10px !important;
+}
+.restaurant-div{
+
+    margin-left: 10px !important;
+   
+   
+}
+.restaurant-image1{
+    width: 200px !important;
+    margin-left: 60px !important;
+}
+.restaurant-image2{
+ width: 200px !important;
+ margin-left: 60px !important;
+}
+.restaurant-image3{
+    width: 200px !important;
+    margin-left: 60px !important;
+}
+.restaurant-image4{
+    width: 200px !important;
+    margin-left: 60px !important;
+} 
+.select-group-amenties{
+    min-width:250px !important;
+}
+}

@@ -1,0 +1,269 @@
+.firstComp{
+    margin-left: 40px;
+    /* padding-left: 150px !important; */
+    /* opacity: 0; */
+    transition: all 1s;
+}
+
+.secondFeed{
+    margin-left: 45px;
+    /* padding-left: 150px !important; */
+    /* opacity: 0; */
+    transition: all 1s;
+
+}
+
+.firstFeedToggle,.secondCompToggle{
+    /* margin-left: 40px; */
+    margin-left: 100px !important;
+    transition: all 1s;
+    /* opacity: 1; */
+
+}
+.firstCompToggle{
+    margin-left: -175px !important;
+    transition: all 1s;
+}
+
+.firstFeed,.secondComp{
+    transition: all 1s;
+    padding-left: 150px !important;
+}
+.secondFeedToggle{
+    margin-left: -165px !important;
+    transition: all 1s;
+}
+
+.feedbackComlaintMain{
+    width: 60%;
+    margin: auto;
+    /* background-color: rebeccapurple; */
+    /* height: 2px; */
+    margin-top: 100px;
+}
+.feedbackinput{
+    border: 1px solid rgb(218, 218, 218);
+    width: 100%;
+    /* background-color: rgb(178, 236, 178); */
+    border-radius: 8px;
+    height: 40px;
+    padding-left: 30px;
+    margin-top: 20px;
+}
+
+.feedbackinput::placeholder{
+    font-size: 17px;
+    font-weight: 600;
+    color: rgb(218, 218, 218) ;
+}
+.message{
+    /* padding-left: 20px; */
+    height: 300px;
+    padding-top: 10px;
+    resize:none;
+}
+.feedbackSubmitBtn{
+    padding:50px;
+    /* width:15%; */
+    margin-right:-30px;
+    border-radius: 7px;
+    cursor: pointer;
+    margin-top: 10px;
+    float: right;
+    background-color: #4DC4F1;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+.feedbackBtn{
+    margin-right: 10px;
+    overflow: hidden;
+    /* width:20%; */
+    height: 35px;
+    text-align: center;
+    width: 180px;
+    /* width:22%; */
+    border-radius: 5px;
+    margin-top: 10px;
+    display: inline-block;
+    cursor: pointer;    
+    background-color: #3EB2E2;
+    color:white;
+    padding-top: 10px;
+    transition:all 1s;
+    /* padding-bottom: 10px; */
+}
+
+.complaintBtn{
+    margin-right: 10px;
+    overflow: hidden;
+    display: inline-block;
+    transition:all 1s;
+    /* width:22%; */
+    width: 180px;
+    height: 35px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 7px;
+    margin-top: 10px;
+    color: black ;
+    box-shadow: 0px 1px 2px 0.5px rgb(231, 231, 231);
+    /* box-shadow: 0px 1px 0px 0.5px rgb(136, 135, 135); */
+    padding-top: 10px;
+    /* padding-bottom: 10px; */
+
+}
+
+.feedbackComplaintBtnGroup{
+    margin-right:-40px;
+
+}
+
+@media only screen and (max-width:1440px){
+
+    .feedbackBtn{
+        width: 22%;
+    }
+    .complaintBtn{
+        width: 22%;
+    }
+
+}
+
+@media only screen and (max-width:1250px){
+
+.feedbackBtn{
+    width:150px !important ;
+}
+.complaintBtn{
+    width:150px !important ;
+}
+}
+
+@media only screen and (max-width:1030px){
+    .firstComp{
+        margin-left: 20px !important;
+    }
+    .secondFeed{
+        margin-left: 22px !important;
+    }
+    .feedbackSubmitBtn{
+        width: 90px;
+    }
+    
+.feedbackBtn{
+    width:22% !important ;
+}
+.complaintBtn{
+    width:22% !important ;
+}
+}
+
+
+@media only screen and (max-width:770px){
+
+    .feedbackComlaintMain{
+        width: 80%;
+    }
+
+    .feedbackSubmitBtn{
+        width: 30%;
+    }
+
+    .feedbackSubmitBtn{
+        width: 90px;
+    }
+}
+    
+@media only screen and (max-width:700px){
+
+.complaintBtn{
+    width: 23% !important;
+}
+
+.feedbackBtn{
+    width: 23% !important;
+}
+}
+
+@media only screen and (max-width:570px){
+
+    .complaintBtn{
+        width: 28% !important;
+    }
+    
+    .feedbackBtn{
+        width: 28% !important;
+    }
+    
+}
+
+@media only screen and (max-width:460px){
+
+    .complaintBtn,.feedbackBtn{
+        width:120px !important;
+    }
+
+}
+
+@media only screen and (max-width:430px){
+
+    .feedbackComlaintMain{
+        width: 80%;
+        margin-left:5%;
+    }
+
+    .feedbackComplaintBtnGroup{
+        margin-right: 0px !important;
+    }
+
+    .feedbackBtn,.complaintBtn{
+        width: 40%;
+    }
+
+    .feedbackSubmitBtn{
+        width: 40%;
+    }
+    .feedbackinput::placeholder{
+        padding-left: 0px;
+    }
+    
+    .firstComp{
+        margin-left: 24px !important;
+    }
+    .secondFeed{
+        margin-left: 27px !important;
+    }
+
+}
+    
+@media only screen and (max-width:380px){
+
+    .firstComp{
+        margin-left: 15px !important;
+    }
+    .secondFeed{
+        margin-left: 20px !important;
+    }
+}
+
+
+@media only screen and (max-width:350px){
+
+    .complaintBtn,.feedbackBtn{
+        width:100px !important;
+    }
+
+}
+
+
+@media only screen and (max-width:330px){
+
+    .firstComp{
+        margin-left: 8px !important;
+    }
+    .secondFeed{
+        margin-left: 14px !important;
+    }
+}

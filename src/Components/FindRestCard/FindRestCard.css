@@ -1,0 +1,151 @@
+.findRestCardMainChicago{
+    border-radius: 5px;
+    box-shadow: -1px 3px 5px 2px rgb(219, 219, 219);
+    /* height:100px; */
+    margin-top: 10px;
+}
+
+.findRestCardMain{
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: -1px 3px 5px 2px rgb(219, 219, 219);
+}
+.findRestCardCheckTxt{
+    font-size: 10px;
+    position: relative;
+    top: -2px;
+    left:2px;
+}
+.findRestCardWomenTxt{
+    color:gray;
+    font-size:12px;
+    position: relative;
+    top: -4px;
+}
+
+.findRestCardMajorityTxt{
+    color:gray;
+    font-size:12px;
+    position: relative;
+    top: -4px;
+    left:4px;
+
+}
+
+.findRestaurant_Image_Div_First p{
+top:60px !important;
+}
+
+@media only screen and (max-width:1440px){
+
+    .FindRestViewImg{
+        height:100% !important;
+    }
+}
+
+@media only screen and (max-width:1355px){
+    .compassImg{
+        margin-left: -10px;
+    }
+}
+
+@media only screen and (max-width:1260px){
+
+.findrestCardFavDiv{
+    margin-left: 5px !important;
+}
+.findRestCardMajorityTxt,.findRestCardWomenTxt{
+    margin-left: -2px !important;
+}
+
+}
+
+
+@media only screen and (max-width:1028px){
+
+    .findRestaurant_Image_Div_First p{
+        top:20px !important
+    }
+    .findRestaurant_Image_Div_Second p{
+        top:30px !important;
+    }
+
+}
+
+@media only screen and (max-width:965px){
+    .compassImg{
+        margin-left: -15px;
+    }
+}
+
+
+@media only screen and (max-width:899px){
+    .compassImg{
+        margin-left: 0px;
+    }
+    .findRestaurant_Image_Div_Third,.findRestaurant_Image_Div_Fourth{
+        margin-top: 20px !important;
+    }
+}
+
+
+@media only screen and (max-width:765px){
+    .compassImg{
+        margin-left: -5px;
+    }
+    .findRestaurant_Image_Div_First p{
+        top:50px !important
+    }
+    .findRestaurant_Image_Div_Second p{
+        top:70px !important;
+    }
+
+}
+
+
+@media only screen and (max-width:660px){
+    .compassImg{
+        margin-left: -10px;
+    }
+    .findRestaurant_Image_Div_Second p{
+        top:60px !important;
+    }
+}
+
+
+
+@media only screen and (max-width:599px){
+    .compassImg{
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (max-width:445px){
+    .compassImg{
+        margin-left: -7px;
+    }
+}
+
+@media only screen and (max-width:360px){
+    .compassImg{
+        margin-left: -10px;
+    }
+}
+
+@media only screen and (max-width:328px){
+
+    .findRestaurant_Image_Div_First p{
+        top:40px !important;
+    }
+    .findRestaurant_Image_Div_Second p{
+        top:40px !important;
+
+    }
+
+}
+
+@media only screen and (max-width:322px){
+    .compassImg{
+        margin-left: -14px;
+    }
+}

@@ -1,0 +1,79 @@
+.enter_Email{
+    width:70%;
+    height:60px;
+    border:2px solid #4DC4F1;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: white;
+    margin: auto;
+    /* padding-top: 20px; */
+    /* color:#e9e9e9 */
+}
+.exploreCityTxtDiv{
+    margin-top: -10px  !important;
+}
+.subscribe_Email{
+    width:70%;
+    margin-left: 2px;
+    margin: auto;
+    height:40px;
+    /* border:2px solid #4DC4F1; */
+    border-radius: 10px;
+    margin-top: 10px;
+    border:2px solid #4DC4F1;
+    background-color: #4DC4F1;
+    cursor: pointer;
+    padding-top: 20px;
+}
+.explore_input:focus{
+    outline: none !important;
+}
+.explore_input:placeholder-shown{
+text-align: center;
+font-size: 14px;
+font-weight: 550;
+}
+
+@media only screen and (max-width:1030px){
+.exploreCityTxtDiv h1{
+font-size: 38px !important;
+}
+.exploreCityTxtDiv h1{
+    font-size: 30px !important;
+}
+}
+
+
+@media only screen and (max-width:770px){
+    .enter_Email{
+        margin-top: 20px !important;
+        margin: auto;
+    }
+
+    .subscribe_Email{
+        margin-top: 10px !important;
+        margin: auto;
+    }    
+    .exploreCityTxtDiv h1{
+        font-size:35px !important
+    }
+}
+
+
+@media only screen and (max-width:430px){
+
+    .exploreCityTxtDiv{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .enter_Email{
+        width: 90%;
+    }
+
+    .subscribe_Email{
+        width: 90%;
+    }    
+
+
+}

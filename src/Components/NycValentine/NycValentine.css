@@ -1,0 +1,104 @@
+.nycForIcon,.nycBackIcon{
+    cursor: pointer;
+}
+
+.nycValentineMain{
+    width: 93%;
+    padding-left: 2%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+
+@media only screen and (max-width:1030px){
+    .nycBackIcon{
+        margin-right: -10px !important;
+        width: 40px;
+    }
+    
+.nycValentineMain{
+    width: 95%;
+    margin: auto;
+}
+}
+
+@media only screen and (max-width:770px){
+    .nycBackIcon{
+        margin-right: 10px !important;
+    }
+    .nycCard{
+        padding-left: 3% !important;
+    }
+    .fourthNycCard{
+        margin-top: 15px !important;
+    }
+    .thirdNycCard{
+        margin-top: 15px !important;
+    }
+    .nycTxt{
+        margin-left: 0% !important;
+    
+    }
+    .nycValentineMain{
+        width: 94%;
+        margin: auto;
+        }
+        .nycValenTitle{
+            margin-left:20px !important;
+        }
+}
+
+@media only screen and (max-width:600px){
+.nycCard{
+    margin: auto !important;
+    margin-top: 10px !important;
+}
+
+.showAllTxt{
+    /* float: none !important; */
+    text-align: center;
+    margin-right: 70px !important;
+}
+.nycValenTitle{
+    margin-left:0px !important;
+
+}
+.nycTxt{
+    margin-left:0px !important;
+}
+
+}
+
+@media only screen and (max-width:380px){
+    
+    .nycBackIcon{
+        /* margin-right: -20px !important; */
+    }
+    .nycValentineMain{
+        width: 100% !important;
+        /* margin-left: -10px !important; */
+            }
+        .nycCard{
+            margin-left: 11% !important;
+            padding-left: 0px !important;
+        }
+        .nycValenTitle{
+            margin-left:0px !important;
+            font-size: 20px !important;
+        }
+            
+
+
+}
+
+
+@media only screen and (max-width:320px){
+    .nycCard{
+        /* margin-left: 10px !important; */
+
+        margin-left: 8% !important;
+        padding-left: 10px !important;    }
+
+
+    
+    }

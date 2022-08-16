@@ -1,0 +1,71 @@
+.DescParkingImg{
+    width:793px;
+    height:1040px;
+}
+
+.descriptionList{
+    list-style-image:url('./../../Assets/circle\ icon.png');
+    margin-bottom: 40px;
+    margin-left: -20px;
+    color:#373737;
+}
+.descriptionList li{
+    margin-top:1.5px;
+    padding-left: 25px;
+    font-size: 16px;
+}
+
+
+@media only screen and (max-width:1030px) {
+    .DescParkingImg{
+        width:680px;
+        height:940px;
+        }
+}
+
+@media only screen and (max-width:770px) {
+    .DescParkingImg{
+        width:540px;
+        height:740px;
+        }
+}
+
+
+@media only screen and (max-width:630px){
+
+    .DescParkingImg{
+        width: 500px;
+    }
+
+}
+
+@media only screen and (max-width:530px){
+
+    .DescParkingImg{
+        width: 420px;
+        height:550px;
+    }
+
+}
+
+
+@media only screen and (max-width:430px) {
+    .DescParkingImg{
+        width:360px;
+        height:500px;
+        }
+}
+
+@media only screen and (max-width:380px) {
+    .DescParkingImg{
+        width:300px;
+        height:400px;
+    }
+}
+
+@media only screen and (max-width:320px) {
+    .DescParkingImg{
+        width:280px;
+        height:400px;
+    }
+}

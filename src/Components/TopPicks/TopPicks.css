@@ -1,0 +1,148 @@
+.topPickBackIcon,.topPickForIcon{
+    cursor: pointer;
+}
+.topCardMobile{
+    display: none;
+}
+.topPickMain{
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+    /* padding-left: 2%; */
+}
+
+
+@media only screen and (max-width:1030px){
+    .topPickBackIcon{
+        margin-right: -10px !important;
+        width: 40px;
+    }
+    
+.topPickMain{
+    width: 95%;
+    margin: auto;
+}
+
+}
+
+@media only screen and (max-width:770px){
+    .topPickBackIcon{
+        margin-right: 10px !important;
+    }
+    .fourthTopPickCard{
+        margin-top: 15px !important;
+    }
+    .topPickCard{
+        padding-left: 3% !important;
+    }
+    .thirdTopPickCard{
+        margin-top: 15px !important;
+    }
+    .topPickMain{
+        width: 94%;
+        margin: auto;
+    }
+    .topPickMoveIcon{
+        padding-right: 0px !important;
+    }
+}
+
+
+@media only screen and (max-width:600px){
+    .topPickTxt{
+        margin-left: 0px !important;
+    }
+    .topPicTxtDiv{
+        text-align: left !important;
+    }
+    .topCardAntiMobile{
+        display: none !important;
+    }
+    .showAllTxt{
+        /* margin-right: 10px !important; */
+    }
+    .topCardMobile{
+        /* display: block !important; */
+        width: 100%;
+        /* background-color: red; */
+        flex-direction: row;
+        overflow-x: scroll;
+        padding-bottom: 10px !important;
+        padding-left: 2px !important;
+        display: flex;
+
+    }
+/* 
+    ::-webkit-scrollbar {
+        width: 0px !important;
+        height: 0px !important; 
+      }
+      
+      ::-webkit-scrollbar-track {
+        width: 0px !important;
+        height: 0px !important; 
+      }
+       
+      ::-webkit-scrollbar-thumb {
+        background: #555; 
+      }
+      
+      ::-webkit-scrollbar-thumb:hover {
+        background-color: black;
+    } */
+
+    }
+
+    @media only screen and (max-width:520px){
+        .topCardMobile div{
+            min-width: 70% !important;
+        }
+    }
+
+@media only screen and (max-width:430px){
+.topPickCard{
+    /* margin-left: 10px !important; */
+    margin: auto !important;
+    margin-top: 10px !important;
+}
+}
+
+@media only screen and (max-width:380px){
+
+    .topPickMain{
+    width: 100% !important;
+    /* margin-left: -10px !important; */
+    /* margin:auto !important */
+    }
+    .showAllTxt{
+        /* margin-left: 40px !important; */
+        /* margin-right: 10px !important; */
+        float: right !important;
+        margin-right: 0px !important;
+    }
+
+    .topPickTxt{
+        margin-left: 5% !important;
+    }
+    .topPickCard{
+        margin-left: 11% !important;
+        padding: 0px !important;
+    }
+    .topCardMobile{
+        width:90%;
+        margin-left: 5%;
+    }
+    .topCardMobile div{
+        min-width: 80% !important;
+    }
+}
+
+
+@media only screen and (max-width:320px){
+    .topPickCard{
+        margin-left: 8% !important;
+        padding-left: 10px !important;
+    }
+
+    
+    }

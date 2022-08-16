@@ -1,0 +1,266 @@
+.liveChicagoHeader{
+    background-image: url('./../../Assets/image12.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    width: 100%;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+::-webkit-scrollbar { 
+    width: 10px !important;
+    height: 4px !important;
+ } 
+  
+  /* Track */
+  /* ::-webkit-scrollbar-track {
+    background: #f4f4f4; 
+  } */
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #555; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: black;
+}
+
+
+.live_Chicage_txt{
+    margin-top: 100px;
+    color: white;
+    font-size: 52px;
+    font-weight: bold;
+    border-left: 13px solid #3EB2E2;
+    text-shadow: 2px 2px 2px  #333333;
+    padding-left: 10px;
+}
+
+.liveChicagoDiv{
+    width: 80%;
+    margin:auto;
+}
+.blueForIcon{
+    margin-bottom: -3px;
+
+}
+.blueBackIcon{
+    margin-right: 5px;
+    margin-bottom: -3px;
+}
+
+.blueBackIcon:hover,.blueForIcon:hover{
+    cursor: pointer;
+}
+
+.discoverChicago{
+    font-weight: 700 !important;
+    text-underline-offset: 20px !important;
+    color:#333333;
+    padding-bottom: 3px;
+    font-size: 26px !important;
+    margin-bottom: 20px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 11px solid #3EB2E2;
+}
+
+
+.image_Div1Chacgo p{
+    width:74%;
+    margin-left: 13%;
+    text-align:center;
+    color:#fff;
+    font-weight:600;
+    font-size:16px;
+    margin-top: auto;
+    position: relative;
+    bottom: 10%;
+}
+
+
+.image_Div1Chacgo{
+    color:white;
+    display: flex;
+    align-items: flex-end !important;
+}
+
+
+
+.first_chicago_Image_Div{
+    background-image: url('./../../Assets/Group 231.jpg');
+    margin-right: auto;
+    border-radius: 2px !important;
+    text-align: left;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+.second_chicago_Image_Div{
+    background-image: url('./../../Assets/Group 232.jpg');
+    margin-left: 2%;
+    border-radius: 2px !important;
+    text-align: left;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+.third_chicago_Image_Div{
+    background-image: url('./../../Assets/Group 233.jpg');
+    border-radius: 0px !important;
+    text-align: left;
+    margin-left: 2%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+
+
+.sliderHeaders{
+    word-wrap: break-word;
+}
+
+
+.image_Div1Chacgo{
+    height:19vw;
+    min-width:19vw;
+}
+
+
+
+@media only screen and (max-width:1030px){
+    .liveChicagoDiv{
+        width: 94%;
+    }
+    .breadcrumDiv{
+        width:88% !important;
+    }
+    .second_chicago_Image_Div,.first_chicago_Image_Div,.third_chicago_Image_Div{
+        min-width: 22vw;
+        height: 22vw;
+        }
+    .live_Chicage_txt{
+        font-size: 42px;
+    }
+    .image_Div1Chacgo p{
+        bottom: 5%;
+    }
+}
+
+@media only screen and (max-width:820px){
+    .image_Div1Chacgo p{
+        bottom: 2%;
+    }
+
+}
+
+@media only screen and (max-width:770px){
+    .liveChicagoDiv{
+        width: 98%;
+    }
+    .breadcrumDiv{
+        width: 100% !important;
+    }
+    .second_chicago_Image_Div,.first_chicago_Image_Div,.third_chicago_Image_Div{
+        min-width: 23vw;
+        height: 23vw;
+        }
+
+}
+
+@media only screen and (max-width:740px){
+    .image_Div1Chacgo p{
+        font-size: 14px;
+    }
+
+}
+
+@media only screen and (max-width:630px){
+
+    .image_Div1Chacgo p{
+        font-size: 12px;
+    }
+.discoverChicago span{
+    font-size: 20px !important;
+}
+.blueBackIcon,.blueForIcon{
+height: 25px;
+width: 25px;
+}
+}
+@media only screen and (max-width:599px){
+.image_Div1Chacgo{
+    min-width: 44vw;
+    height: 44vw;
+}    
+    .live_Chicage_txt{
+        border-left: 9px solid #3EB2E2;
+        font-size: 38px;
+        }
+.live_Chicage_txt{
+    width: 100% !important;
+}
+.image_Div1Chacgo p{
+    bottom: 5%;
+    font-size: 16px;
+}
+}
+
+
+@media only screen and (max-width:430px){
+    .live_Chicage_txt{
+    border-left: 9px solid #3EB2E2;
+    font-size: 38px;
+    }
+
+.liveChicagoDiv{
+    width: 100% !important;
+}
+
+
+.first_chicago_Image_Div p,.second_chicago_Image_Div p,.third_chicago_Image_Div p{
+    font-size: 14px;
+}
+
+}
+
+@media only screen and (max-width:370px){
+
+.discoverChicago span{
+    font-size: 16px !important;
+}
+.blueBackIcon,.blueForIcon{
+height: 20px;
+width: 20px;
+margin-bottom:0px;
+}
+}
+
+@media only screen and (max-width:350px){
+    .first_chicago_Image_Div p,.second_chicago_Image_Div p,.third_chicago_Image_Div p{
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width:300px){
+.image_Div1Chacgo p{
+    bottom: 3%;
+}
+}
+
+
+
+@media only screen and (max-width:290px){
+    .image_Div1Chacgo{
+        min-width: 60vw;
+        height: 60vw;
+    }
+}

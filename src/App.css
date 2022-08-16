@@ -1,0 +1,8 @@
+.App {
+  text-align: center;
+  /* width: 1440px !important; */
+  /* margin:auto !important; */
+  overflow-x: hidden;
+  width: 100% !important;
+  font-family:Poppins;
+}

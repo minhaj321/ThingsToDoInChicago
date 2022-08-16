@@ -1,0 +1,90 @@
+.profileMain{
+    width: 60%;
+    margin:auto;
+}
+
+.profileAddIcon{
+    opacity: 0;
+}
+
+.profilePicMainDiv{
+    background-image: url('./../../Assets/yutacar-JKMnm3CIncw-unsplash1.png');
+    /* width: 100%; */
+    text-align: left;
+    /* height: 280px; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+
+}
+
+.profilePicMainDiv:hover > .plusDiv{
+    background-color: black !important;
+    opacity: 0.7;
+    transition: all 1s;
+}
+
+
+.profilePicMainDiv:hover  .profileAddIcon{
+    /* background-color: black !important; */
+    opacity: 1 !important;
+    transition: all 1s;
+}
+
+.profileinput{
+    border: none;
+    width: 100%;
+    background-color: #E7F1E8;
+    border-radius: 10px;
+    height: 40px;
+    /* padding-top: 5px; */
+    /* padding-bottom: 5px; */
+    padding-left: 40px;
+}
+
+.profileinput:focus{
+    outline: none;
+}
+.profileinput::placeholder{
+    /* padding-left: 30px; */
+    color: #898A89;
+    font-weight: 540;
+    font-size: 16px;
+}
+
+
+.NamesaveBtn{
+    /* width:20%; */
+    float: right;
+    border-radius: 7px;
+    cursor: pointer;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    /* padding: 50px; */
+    width: 120px;
+    background-color: #5EBBF6;
+    padding-top: 5px;
+    position: relative;
+    left:40px;
+    padding-bottom: 5px;
+}
+
+
+@media only screen and (max-width:770px){
+    .NamesaveBtn{
+    width: 30%;
+    }
+}
+
+@media only screen and (max-width:430px){
+    .NamesaveBtn{
+        width: 40%;
+        left:10px;
+    }
+.profileinput{
+    padding-left: 10px;
+}
+    .profileMain{
+        width: 80%;
+    }
+}

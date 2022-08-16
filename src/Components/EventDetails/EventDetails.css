@@ -1,0 +1,629 @@
+.eventDetailsCalIcon{
+    position: relative;
+    top: 8px;
+    left: 13px;
+}
+.chiTownImg{
+    margin-top: 5px;
+}
+.getTicketsBtn{
+    box-shadow: 0px 3px #afafaf ;
+}
+.D33{
+    font-size: 36px;
+    padding-right: 10px;
+}
+.eventDetailsImg13,.eventDetailsImg15{  
+    margin-top: 6px;
+}
+
+.eventDetailsMapIcon{
+    position: relative;
+    left: 13px;
+}
+
+.eventDetailsGroupIcon{
+    position: relative;
+    left: 15px;
+}
+
+.eventDetailsImg{
+    border-radius: 4px;
+    box-shadow: 0px 3px 3px 2px rgb(212, 210, 210);
+}
+
+.detailsShareAddDiv{
+    height: 100px;
+    /* width: 90vw; */
+    /* margin-left: -10%; */
+    background-color: lightgray;
+}
+.eventDetailsImg:hover{
+    opacity: 0.7;
+}
+.detailsShareDiv{
+    background-color: white;
+    width: 95%;
+    cursor: pointer;
+    box-shadow: 3px 3px 5px 0.1px rgb(209, 209, 209);
+    border-radius: 2px;
+}
+.shareIcon{
+    margin-top: 5px;
+    margin-left: 5px;
+
+}
+.shareTxt{
+    position: relative;
+    top:-8px;
+    left: 7px;
+    color:#8C8C8C ;
+    /* margin-/bottom: 40px !important; */
+}
+
+
+.detailsFavouriteDiv{
+    background-color: white;
+    cursor: pointer;
+    box-shadow: 3px 3px 5px 0.1px rgb(209, 209, 209);
+    /* box-shadow: 3px 3px 8px 0.5px gray; */
+    width: 100%;
+    border-radius: 2px;
+}
+.favouriteIcon{
+    margin-top: 5px;
+    margin-left: 5px;
+
+}
+.favouriteTxt{
+    position: relative;
+    top:-8px;
+    left: 7px;
+    color:#8C8C8C;
+    /* margin-/bottom: 40px !important; */
+}
+
+
+
+.detailsCalenderDiv{
+    background-color: white;
+    cursor: pointer;
+    width: 100%;
+    padding-top: 1px;
+    box-shadow: 3px 3px 5px 0.1px rgb(209, 209, 209);
+    /* box-shadow: 3px 3px 8px 0.5px #ecebf0; */
+    border-radius: 2px;
+}
+.eventDETcalenderIcon{
+    margin-top: 5px;
+    margin-left: 5px;
+
+}
+
+
+.calenderTxt{
+    position: relative;
+    top:-8px;
+    left: 7px;
+    color:#8C8C8C;
+    /* margin-/bottom: 40px !important; */
+}
+
+.getTicketsBtn{
+    width: 90%;
+    cursor:pointer;
+    color:#333333;
+    /* height: 45px; */
+    margin: auto;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 3px;
+    margin-top: 20px;
+    border: 2px solid rgba(14, 149, 190, 0.89);
+}
+
+.getTicketsBtn span{
+    font-weight:790;
+    font-size: 18px;
+}
+
+.detailsSecondDiv{
+    height: 600px;
+    /* overflow-y: scroll; */
+    overflow-x: hidden;
+}
+
+/* ::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background: #555; 
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: black;
+} */
+
+.offPriceInDetails{
+    
+    background-color: red;
+    border-radius: 30px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: white;
+    font-size: 12px;
+}
+
+.eventDetailsImg11,.eventDetailsImg12,.eventDetailsImg13,.eventDetailsImg14,.eventDetailsImg15{
+    /* transform: scale(1,1); */
+    border-radius: 5px;
+}
+
+@media only screen and (max-width:2030px){
+
+    .detailsSecondDiv{
+        width:65% !important;
+    }
+
+}
+
+@media only screen and (max-width:1900px){
+
+    .detailsSecondDiv{
+        width:75% !important;
+    }
+}
+
+
+@media only screen and (max-width:1550px){
+
+    .detailsSecondDiv{
+        width:85% !important;
+    }
+}
+
+
+@media only screen and (max-width:1440px){
+
+    .eventDetailsImg11{
+        height:294px !important;
+    }
+    .CHitownTxt{
+        font-size: 24px !important;
+    }
+    .chiPriDiv,.chiMovDiv{
+        margin-top: -5px !important;
+    }
+    .chiDateDiv{
+        margin-top: -15px !important;
+    }
+    .chiDateTxt,.chiPriTxt,.chiMovTxt{
+        font-size: 15px !important;
+    }
+    .eventDetailsImg12,.eventDetailsImg13,.eventDetailsImg14,.eventDetailsImg15{
+        height:145px !important;
+    }
+    .totalBackground{
+        top:445px !important
+    }
+
+    .detailsSecondDiv{
+        width: 70% !important;
+    }
+    
+}
+
+@media only screen and (max-width:1360px){
+
+    .eventDetailsCardsDiv h3{
+        font-size: 16px ;
+    }
+    .detailsSecondDiv{
+        width: 80% !important;
+    }
+
+}
+
+@media only screen and (max-width:1280px){
+
+.detailsSecondDiv{
+    width: 82% !important;
+}
+
+}
+
+@media only screen and (max-width:1210px){
+    .D33{
+    font-size: 30px;
+    padding-right: 5px;
+}
+.Doll33IEvent{
+    font-size: 24px !important;
+}
+}
+
+@media only screen and (max-width:1199px){
+
+.detailsShareDiv{
+    /* width: 100px; */
+}
+.detailsCalenderDiv{
+    /* width: 170px; */
+    /* margin-left: -30px; */
+}
+.detailsFavouriteDiv{
+padding-right: 10px;
+}
+.eventDetailsImg11{
+    height: 285px !important;
+}
+.eventDetailsImg13,.eventDetailsImg15{
+    height: 137px !important;
+}
+.totalBackground{
+    top: 435px !important;
+}
+}
+
+@media only screen and (max-width:1167px){
+
+    .totalBackground{
+    /* height:150px */
+    }
+    .Doll33IEvent{
+        font-size: 25px !important;
+    }
+    }
+    
+@media only screen and (max-width:1120px){
+
+    .detailsSecondDiv{
+        width: 88% !important;
+    }
+.totalBackground{
+    /* height: 170px !important; */
+}
+}
+
+@media only screen and (max-width:1100px){
+
+    .detailsSecondDiv{
+        margin-left: 25px !important;
+        width: 95% !important;
+    }
+    .CHitownTxt{
+        font-size: 22px !important;
+    }
+    .chiTownImg{
+        margin-top: -5px !important;
+    }
+}
+
+
+@media only screen and (max-width:1079px){
+
+    .detailsCalenderDiv{
+        /* width: 170px; */
+        /* margin-left: -20px; */
+    }
+    .detailsFavouriteDiv{
+        /* margin-left: 5px; */
+    }
+}
+
+@media only screen and (max-width:1055px){
+    .detailsCalenderDiv{
+        /* margin-left: -10px; */
+    }
+}
+
+@media only screen and (max-width:1030px){
+.detailsSecondDiv{
+    width: 92% !important;
+    word-break:keep-all;
+    margin-right:10px !important
+}
+.eventDetailsCardsDiv h3{
+    font-size: 15px !important;
+}
+.totalBackground{
+    /* top:440px !important; */
+    height: 100px !important;
+}
+.Doll33IEvent{
+    font-size: 20px !important;
+}
+.D33{
+    font-size: 26px !important;
+}
+.eventDetailsImg11,.eventDetailsImg12,.eventDetailsImg13,.eventDetailsImg14,.eventDetailsImg15{
+    width: 98%;
+}
+.detailsCalenderDiv{
+    margin-left:10px;
+}
+.fav1{
+    /* padding-right: 0px; */
+    max-width:100% !important
+    /* margin-left: 15px; */
+}
+.shareTxt,.favouriteTxt,.calenderTxt{
+    font-size: 12px;
+}
+
+}
+
+@media only screen and (max-width:1029px){
+
+}
+
+@media only screen and (max-width:985px){
+    .totalBackground{
+        /* height: 160px !important; */
+    }
+    .detailsSecondDiv{
+        width: 96% !important;
+    }
+}
+
+@media only screen and (max-width:960px){
+
+    .detailsCalenderDiv{
+        margin-left: 10px;
+    }
+    .CHitownTxt{
+        font-size: 22px !important;
+    }
+    .chiTownImg{
+        margin-top: -20px;
+    }
+    .eventDetailsImg12,.eventDetailsImg13,.eventDetailsImg14,.eventDetailsImg15{
+        height: 130px !important;
+    }
+    .eventDetailsImg11{
+        height: 263px !important;
+    }
+    .totalBackground{
+        top: 420px !important;
+    }
+}
+
+@media only screen and (max-width:950px){
+    .sha1{
+        min-width: 95% !important;
+}
+}
+
+@media only screen and (max-width:910px){
+
+    .CHitownTxt{
+        font-size: 18px !important;
+    }
+    .chiTownImg{
+        margin-top: -20px !important;
+    }
+
+}
+
+@media only screen and (max-width:899px){
+.detailsShareDiv{
+    /* margin-left: 10px; */
+}
+
+.totalBackground{
+    top: 950px !important;
+    height: 150px !important;
+}
+
+.eventDetailsImg11{
+    height: 390px !important;
+}
+
+.eventDetailsImg12,.eventDetailsImg13,.eventDetailsImg14,.eventDetailsImg15{
+    height: 200px !important;
+}
+.Doll33IEvent{
+    font-size: 17px !important;
+}
+.sha1{
+    max-width:100px !important ;
+}
+.fav1{
+    /* margin-left: 150px !important; */
+}
+.cal1{
+    margin-left: 0px !important;
+}
+.sha1{
+    /* margin-left: 5px; */
+}
+}
+
+
+@media only screen and (max-width:850px){
+
+    .detailsFavouriteDiv{
+        /* margin-left: 7px; */
+    }
+    .detailsCalenderDiv{
+        /* margin-left: 5px; */
+    }
+
+}
+
+@media only screen and (max-width:820px){
+    .eventDetailsMain{
+        width: 98% !important;
+    }
+    .detailsSecondDiv{
+        margin-left: 0px !important;
+    }
+.totalBackground{
+    top: 860px !important;
+}
+.eventDetailsNewDiv{
+    width: 99% !important;
+    margin: auto !important;
+}
+.eventDetailsImg11{
+    width: 99% !important;
+}
+.eventDetailsImg1{
+    height: 300px !important;
+}
+.calenderTxt{
+    left: 0px !important;
+}
+.eventDETcalenderIcon{
+    /* margin-left: 0px !important; */
+    width:25px !important;
+    height: 25px !important;
+}
+.eventDetailsCalIcon,.eventDetailsMapIcon,.eventDetailsGroupIcon{
+    left: 5px;
+}
+
+
+}
+
+@media only screen and (max-width:700px){
+
+.CHitownTxt{
+    font-size: 20px !important;
+}
+.chiTownImg{
+    width: 85px !important;
+}
+}
+
+@media only screen and (max-width:630px){
+    .chiTownImg{
+        width: 75px !important;
+    }
+    .D33{
+        padding-right: 0px;
+    }
+}
+
+@media only screen and (max-width:600px){
+    .totalBackground{
+    top:840px !important
+}
+}
+@media only screen and (max-width:599px){
+
+    .detailsSecondDiv{
+        width: 50% !important;
+        margin: auto !important;
+    }
+    .CHitownTxt{
+        font-size: 24px !important;
+    }
+    .chiTownImg{
+        width: 95px !important;
+    }
+    .sha1{
+        max-width: 100% !important;
+        min-width: 100% !important;
+    }
+}
+
+@media only screen and (max-width:465px){
+
+    .detailsSecondDiv{
+        width: 70% !important;
+        margin: auto !important;
+    }
+
+
+}
+
+@media only screen and (max-width:430px){
+    .detailsSecondDiv{
+        width:70% !important;
+        margin: auto;
+    }
+    .detailsShareDiv,.detailsFavouriteDiv{
+        /* margin-left: 10px !important; */
+    }
+    .eventDetailsImg13,.eventDetailsImg15,.eventDetailsImg12,.eventDetailsImg14{
+        height: 180px !important;
+    }
+    /* .eventDetailsCalIcon{
+        top:0px;
+    } */
+    .totalBackground{
+        top:800px !important;
+        /* background-color: transparent !important; */
+        /* height: 155px !important; */
+    }
+    .fav1{
+        margin-left: 30px !important;
+
+    }
+}
+
+@media only screen and (max-width:426px){
+.cal1{
+    width:150px !important
+    /* max-width: 100% !important; */
+    /* min-width: 100% !important; */
+}
+}
+
+@media only screen and (max-width:400px){
+.Doll33IEvent{
+    font-size: 15px !important;
+}
+.D33{
+font-size: 18px !important;
+}
+.total1{
+    height:130px !important ;
+}
+}
+
+@media only screen and (max-width:370px){
+    .totalBackground{
+        top:750px !important
+    }
+    .total1{
+        height:140px !important ;
+    }
+    .eventDetailsImg13,.eventDetailsImg15,.eventDetailsImg12,.eventDetailsImg14{
+        height: 160px !important;
+    }
+
+}
+
+@media only screen and (max-width:400px){
+    .Doll33IEvent{
+        font-size: 12px !important;
+    }
+    .D33{
+    font-size: 15px !important;
+    }
+    }
+@media only screen and (max-width:330px){
+    .detailsSecondDiv{
+        width:85% !important;
+    }
+    
+.eventDetailsImg12,.eventDetailsImg13,.eventDetailsImg14,.eventDetailsImg15{
+    height: 140px !important;
+}
+.totalBackground{
+    top:700px !important
+}
+
+.total1{
+    height:150px !important ;
+}
+}

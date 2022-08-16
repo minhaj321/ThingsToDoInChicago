@@ -1,0 +1,274 @@
+
+.react-calendar__month-view__days button{
+    background:none ;
+    color: black ;
+    font-weight: 600;
+    
+}
+
+.popOverBox1{
+    display: none;
+}
+
+.otherMonthsweekend{
+    color: gray !important;
+    background:none !important;
+
+}
+
+.calenderMain{
+    width:100% !important;
+    border: none !important;
+}
+
+.notThisMonth{
+    background:none !important;
+    color: gray !important;
+}
+
+.weekend{
+    background:none !important;
+    color:black !important;
+}
+.react-calendar__month-view__weekdays__weekday abbr{
+    text-decoration: none;
+    color: gray;
+    text-transform:capitalize;
+}
+.normalDay:focus,.react-calendar__tile:focus{
+    background:none !important;
+    color: black !important;
+}
+.normalDay:hover,.react-calendar__tile:hover{
+    background:none !important;
+    color: black !important;
+}
+.normalDay,.react-calendar__tile{
+    /* font-weight: 500; */
+    /* height: 110px; */
+    padding:50px 0px 50px 0px !important;
+    box-sizing: border-box !important;
+    font-size: 17px;
+
+}
+.react-calendar__month-view__weekdays{
+    margin-bottom:70px !important;
+
+}
+
+.monthSelect{
+    cursor: pointer;
+    border: none;
+    -webkit-appearance: none;
+    font-size: 25px;
+    color: #4DC4F1;
+    font-weight: 520;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+.monthSelect:focus{
+border: none;
+outline: none;
+}
+
+.monthSelect option{
+    color: white;
+    background-color: #4DC4F1;
+    font-size: 17px;
+    padding: 5px;
+}
+
+.eventDiv{
+    /* padding-left: 5px; */
+    text-align: left;
+    height: 40%;
+    width: 100%;
+}
+.eventAddress{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: white;
+    font-size: 13px;
+    font-weight: 0 !important;
+}
+.eventName{
+    margin-top: 5px;
+    font-weight: 0 !important;
+    /* font-weight: 550; */
+    font-size: 13px;
+    margin-bottom: 0px;
+    color: #333333;
+}
+.eventType{
+    color: #333333;
+    /* font-weight: 560; */
+    margin-top: 7px;
+    font-weight: 0 !important;
+    font-size: 13px;
+    font-family: Arial;
+}
+
+.eventTitle{
+    background-color: rgb(151, 218, 255) !important;
+    border-radius: 5px;
+    /* box-shadow: 1px 2px 9px 1px rgb(193, 206, 209) !important; */
+    padding: 10px !important;
+}
+
+.eventTitle:hover{
+    background-color: #73C4F1 !important;
+}
+
+.eventTitle:focus{
+    background-color: #73C4F1 !important;
+}
+
+.popOverBox{
+box-shadow: 0px 1px 1px 2px rgb(173, 173, 173);
+background-color: white;
+border-radius: 4px;
+height: 180px;
+}
+
+.popUpEventName{
+    font-weight: 700;
+    margin-bottom: 0px;
+    margin-top: 25px !important;
+    font-size: 14px;
+}
+.popUpEventDate{
+    color: gray;
+    font-size: 13px;
+    margin-top: 6px;
+    margin-bottom: 0px;
+}
+.popUpEventAddress{
+    color: gray;
+    font-size: 13px;
+    margin-top: 4px;
+
+}
+
+.popUpEventType{
+    font-weight: 700;
+    margin-top: 35px !important;
+    /* font-size: 1px; */
+}
+
+@media only screen and (max-width:1030px){
+    .calenderMainDiv{
+        width: 100% !important;
+}
+}
+
+@media only screen and (max-width:899px){
+.calFirstDiv{
+    margin-left: 3% !important;
+}
+.monthSelect{
+    font-size: 20px !important;
+}
+}
+
+@media only screen and (max-width:770px){
+
+    .popOverBox{
+        display: none;
+    }
+    
+    .popOverBox1{
+        display: block;
+    }
+.eventTitle{
+    padding: 2px !important;
+    padding-left: 0px !important;
+}
+}
+
+@media only screen and (max-width:720px){
+
+    .popOverBox1{
+        width: 80% !important;
+        margin-left: 10% !important;
+    }
+
+}
+
+@media only screen and (max-width:599px){
+.eventName,.eventAddress,.eventType{
+    display: none;
+}
+.eventTitle abbr{
+    position: relative;
+    top: 48px !important;
+    /* position: relative; */
+}
+.eventDiv{
+    position: relative;
+    /* top: -50px !important; */
+    height: 100%;
+}
+.googleCalTxt,.iCALTxt{
+    font-size: 12px !important;
+}
+.iCALTxt{
+    margin-top: 4px !important;
+}
+}
+
+@media only screen and (max-width:550px){
+}
+
+@media only screen and (max-width:450px){
+    .googleCalTxt,.iCALTxt{
+        font-size: 11px !important;
+    }
+    .calIconModal{
+        height: 14px !important;
+        width: 14px !important;
+    }
+    .iCALTxt{
+        margin-top: 5px !important;
+    }
+    
+}
+
+@media only screen and (max-width:430px){
+
+.react-calendar__tile{
+    font-size: 13px !important;
+}
+
+.eventDiv p{
+font-size: 12px !important;
+}
+
+.eventDiv{
+    /* word-break: break-all; */
+    /* padding-left: 1px !important; */
+    /* padding-right: 3px !important; */
+    /* display: none; */
+    }
+
+}
+
+@media only screen and (max-width:390px){
+
+    .popOverBox1{
+        width: 90% !important;
+        margin-left: 5% !important;
+    }
+
+}
+
+@media only screen and (max-width:330px){
+.popUpEventType{
+    margin-top: 10px !important;
+}
+.popUpEventAddress,.popUpEventDate,.popUpEventName,.popUpEventType{
+    font-size: 13px !important;
+}
+.popOverBox1{
+    margin-left: 5px !important;
+}
+}

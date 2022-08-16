@@ -1,0 +1,179 @@
+
+.readArticleCarousel{
+    border:2px solid #F15F61;
+    width:180px;
+    margin: auto;
+    padding: 3px;
+    color:white;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 70px;
+}
+
+.readArticleCarousel:hover{
+    border:2px solid white;
+    background-color: white;
+    color: #F15F61;
+}
+.readArticleCarousel{
+    margin-top:150px;
+}
+.carBackwardArrow,.carForwardArrow{
+    margin-top: 20px;
+}
+
+.readArticleCarousel span{
+    font-weight: 0px;
+    text-transform: lowercase;
+    font-size: 18px;
+}
+
+.carouselControllerDiv{
+    padding-top: 160px;
+}
+
+
+
+@media only screen and (max-width:1800px){
+    .readArticleCarousel{
+    margin-top:100px;
+}
+}
+@media only screen and (max-width:1440px){
+
+
+.carouselMainDIv{
+    height: 340px !important;
+}
+.carouselImg{
+    height: 320px !important;
+}
+.carouselTxt{
+    font-size:20px
+}
+.readArticleCarousel{
+    border:2px solid #F15F61;
+    width:180px;
+    margin: auto;
+    padding: 3px;
+    color:white;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 70px;
+}
+
+.readArticleCarousel:hover{
+    border:2px solid white;
+    background-color: white;
+    color: #F15F61;
+}
+
+.carBackwardArrow,.carForwardArrow{
+    margin-top: 20px;
+}
+
+.readArticleCarousel span{
+    font-weight: 500;
+    text-transform: lowercase;
+    font-size: 15px;
+}
+.readArticleCarousel{
+    width: 150px;
+}
+.carouselControllerDiv{
+    padding-top: 110px;
+}
+
+}
+
+
+
+@media only screen and (max-width:1030px){
+.carouselTxt{
+    font-size: 18px;
+}
+.carouselMainDIv{
+    height: 400px !important;
+}
+
+.carouselControllerDiv{
+    padding-top: 120px;
+}
+
+    .carouselImg{
+        height: 300px !important;
+    }
+    
+    .carouselControllerDiv{
+        padding-top: 100px;
+    }
+    
+    .readArticleCarousel{
+        margin-top: 20px;
+    }
+
+    }
+
+    @media only screen and (max-width:700px){
+    
+        .carouselTxt{
+            width:80% !important;
+        }
+    }
+
+@media only screen and (max-width:599px){
+.carouselTxt{
+    font-size: 17px !important;
+}
+.readArticleCarousel{
+    margin-top: 70px;
+}
+}
+
+@media only screen and (max-width:430px){
+        .carouselImg{
+            height: 200px !important;
+        }        
+
+        .carouselControllerDiv{
+            padding-top: 40px;
+        }
+        
+        .readArticleCarousel{
+            margin-top: 20px;
+            width: 150px !important;
+            font-size: 15px !important;
+        }
+    
+        .carBackwardArrow{
+            width: 30px !important;
+            height: 30px !important;
+            padding-left: 5px !important;
+            margin-top: 30px !important;
+        }
+        .carForwardArrow{
+            margin-left: -5px !important;
+            margin-top: 30px !important;
+            width: 30px !important;
+            height: 30px !important;
+
+        }
+
+        .carouselTxt{
+            font-size: 20px;
+            width: 90% !important;
+        }
+
+        }
+        
+    @media only  screen and (max-width:330px){
+        .carForwardArrow{
+            margin-left: -10px !important;
+            width: 25px !important;
+            height: 25px !important;
+        }
+        .carBackwardArrow{
+            width: 25px !important;
+            height: 25px !important;
+        }
+    }

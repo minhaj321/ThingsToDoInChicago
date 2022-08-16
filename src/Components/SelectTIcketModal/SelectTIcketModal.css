@@ -1,0 +1,188 @@
+.modalFirstContainer{
+    /* width: 100%; */
+    /* height:1px; */
+    /* background-color: black; */
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 2px 2px 2px #C8C8C8;
+}
+.modalApplyDiv{
+    cursor: pointer;
+}
+.modalSecondPartSubDiv{
+/* background-color: red; */
+/* height: 100%; */
+width: 90%;
+margin: auto;
+}
+
+.modalSecondPartDiv{
+background-color: #EAEAEA;
+box-shadow: -1px 0px 2px 1px #C8C8C8;
+margin-top: 4px !important;
+/* height: 450px; */
+}
+
+
+.modalFirstPartSubDiv{
+    width: 80%;
+    margin: auto;
+    }
+    
+.modalFirstPartSubDiv p{
+    font-size: 14px;
+}
+
+    .discountCodeInput{
+        border:1px solid blue;
+        width: 80%;
+        height: 40px;
+        padding-left: 20px;
+        border-radius: 3px;
+    }
+
+    .modalApplyDiv{
+        height: 34px;
+        border-radius: 3px;
+        width: 90%;
+        text-align: center;
+        background-color: #37A9EE;
+        font-weight: 600;
+        padding-top: 8px;
+    }
+    .modalChooseTxt{
+        font-size: 13px;
+        color: #808080;
+        font-weight: 700;
+    }
+
+    .DiscountCodeModalBtn{
+        cursor: pointer;
+        height: 40px;
+        border-radius: 3px;
+        width: 100%;
+        font-weight: 600;
+        text-align: center;
+        background-color: #37A9EE;
+        padding-top: 15px;   
+        margin-bottom: 20px;
+    }
+
+    @media only screen and (max-width:1200px){
+        .ticketModalSelectInput{
+            width:60% !important
+        }
+    }
+
+    @media only screen and (max-width:1030px){
+        .ticketModalSelectInput{
+            width: 80% !important;
+        }
+        .modalBox{
+            /* height: 90vh !important; */
+            /* top: 50% !important; */
+        }
+    }
+
+    @media only screen and (max-width:700px){
+        .modalHeaderIcon{
+            height: 60px !important;
+            width: 60px !important;
+            bottom: 30px !important;
+        }
+    }
+    @media only screen and (max-width:599px){
+
+    .modalBox{
+        padding-bottom: 5px;
+        top:55% !important;
+        /* margin-top: 20px !important; */
+        /* overflow-y: hidden; */
+    }
+    .modalMailDiv{
+        max-height: 55vh !important;
+    }
+    .modalFirstContainer{
+    border-bottom: 1px solid #808080;
+    /* background-color: red; */
+}
+.modalChooseTxt{
+    padding-bottom: 20px !important;
+}
+
+.modalFirstPartSubDiv{
+    width: 98%;
+    background-color: white;
+    /* background-color: red; */
+}
+.modalApplyDiv{
+    margin-top: 10px !important;
+    margin:auto;
+}
+.discountCodeInput{
+    width: 90%;
+    margin-left: 1.5%;
+}
+    }
+    @media only screen and (max-width:530px){
+        .modalHeaderIcon{
+            height: 45px !important;
+            width: 45px !important;
+            bottom: 20px !important;
+        }
+        
+    }
+    
+    @media only screen and (max-width:465px){
+        .modalBox{
+            margin-top: 0px !important;
+            /* padding-bottom: 25px; */
+        }
+        .modalMailDiv{
+            max-height: 50vh !important;
+        }
+    }
+
+    @media only screen and (max-width:430px){
+.modalHeaderIcon{
+    height: 50px !important;
+    width: 50px !important;
+    bottom:23px !important;
+    left:10px !important;
+}
+
+.modalFirstContainer{
+    border-bottom: 1px solid #808080;
+    /* background-color: red; */
+}
+.modalChooseTxt{
+    padding-bottom: 20px !important;
+}
+
+.modalFirstPartSubDiv{
+    width: 98%;
+    background-color: white;
+    /* background-color: red; */
+}
+.modalApplyDiv{
+    margin-top: 10px !important;
+    margin:auto;
+}
+.discountCodeInput{
+    width: 90%;
+    margin-left: 1% !important;
+}
+}
+
+@media only screen and (max-width:380px){
+
+    .modalChooseTxt{
+        padding-bottom: 70px !important;
+    }
+}
+@media only screen and (max-width:350px){
+    .discountCodeInput{
+        width: 88%;
+    }
+    }
+

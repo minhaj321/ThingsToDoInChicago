@@ -1,0 +1,39 @@
+.sidebar_Main{
+    background-color: #333333;
+    color: white;
+    height: 100%;
+}
+
+.sidebar_menu_icon{
+    transform: rotate(90deg);
+    margin: 15px 0px 0px 15px;
+}
+.menu_sub_div{
+    text-align: left;
+}
+
+.menuDiv{
+    cursor: pointer;
+    /* text-align: center; */
+    /* margin-top: 50px !important; */
+    min-height: 120px !important;
+    margin-top: 20px;
+}
+
+.menuDiv img{
+    /* color: white; */
+}
+
+.menuDiv p,.menuDiv span{
+font-size: 13px;
+font-weight: 500;
+}
+
+.menu_logoutDiv{
+    margin-top: 100px;
+    /* padding-bottom: 20px; */
+}
+
+.avatarSidebarDiv{
+    margin-top: 70px;
+}

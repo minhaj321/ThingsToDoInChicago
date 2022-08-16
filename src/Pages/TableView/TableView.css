@@ -1,0 +1,272 @@
+.CalenderTableMain{
+    width: 90%;
+    /* margin-left: 50px; */
+    margin: auto;
+    margin-top: 100px;
+}
+
+
+.CalenderViewBtn{
+    margin-right: 10px;
+    /* width:20%; */
+    padding: 80px;
+    /* width:20%; */
+
+    border-radius: 7px;
+    margin-top: 10px;
+    /* float: right; */
+    display: inline-block;
+    /* background-color: #4DC4F1; */
+    color: black;
+    box-shadow: 3px 3px 10px 2px rgb(219, 219, 219);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.TableViewBtn{
+    margin-right: 10px;
+    display: inline-block;
+    cursor: pointer;
+    padding: 70px;
+    /* width:20%; */
+    color: white;
+    text-align: center;
+    border-radius: 7px;
+    margin-top: 10px;
+    background-color: #4DC4F1;
+    /* float: right; */
+    /* background-color: #4DC4F1; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.tableViewDateDiv{
+    height: 128px;
+    width: 90%;
+    box-shadow: 3px 3px 10px 2px rgb(219, 219, 219);
+
+}
+
+.tableViewEventDiv{
+    height: 130px;
+    width: 90%;
+    /* margin-top:15px; */
+    /* padding:10px; */
+    box-shadow: 3px 3px 10px 2px rgb(219, 219, 219);
+
+}
+
+.tableViewDateDiv p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.tableViewDateDivYear{
+    color: rgb(114, 114, 114);
+    padding-top: 20px;
+}
+.tableViewDateDivDate{
+    padding-top: 5px;
+}
+
+.tableViewDateDivMonth{
+    color: rgb(114, 114, 114);
+    padding-top: 5px;
+}
+
+.AddToGoogleCalenderBtn{
+    width:60%;
+    border-radius: 7px;
+    /* margin-top: 13px; */
+    /* float: right; */
+    display: inline-block;
+    background-color: #4DC4F1;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+   cursor: pointer;
+}
+
+.AddToICalenderBtn{
+    width:60%;
+    cursor: pointer;
+    border-radius: 7px;
+    margin-top: 10px;
+    /* float: right; */
+    display: inline-block;
+    /* background-color: #4DC4F1; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    box-shadow: 3px 3px 10px 2px rgb(219, 219, 219);
+   
+}
+
+.TableViewwhiteCalIcon{
+    width: 40%;
+    height: 100%;
+}
+
+.TableViewwhiteCalTxt{
+    width: 100%;
+    text-align: center;
+    height: 100%;
+}
+
+@media only screen and (max-width:1800px){
+    .whiteCalIcon,.blackCalIcon{
+        margin-left:10px !important;
+}
+}
+
+
+@media only screen and (max-width:1660px){
+    .whiteCalIcon{
+        margin-top:15px !important;
+}
+.AddToGoogleCalenderBtn{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.AddToICalenderBtn{
+    margin-bottom: 7px;
+}
+}
+
+
+@media only screen and (max-width:770px){
+    .tableViewDateDiv{
+        width: 95%;
+        margin-left: 2px;
+    }
+    .CalenderTableMain{
+        width: 98%;
+    }
+    .tableViewEventDiv{
+        width: 98%;
+    }
+    .AddToGoogleCalenderBtn{
+        width: 65%;
+    }
+    .AddToICalenderBtn{
+        width: 65%;
+    }
+    .CalenderViewBtn{
+    width:20% !important;
+    }
+    .TableViewBtn{
+    width:20% !important;
+
+    }
+}
+
+@media only screen and (max-width:720px){
+
+    .AddToGoogleCalenderBtn{
+        width: 75%;
+    }
+    .AddToICalenderBtn{
+        width: 75%;
+    }
+    .CalenderViewBtn,.TableViewBtn{
+        width: 150px !important;
+        padding: 0px;
+        padding-bottom: 10px;
+        padding-top:10px;
+
+    }
+
+
+}
+@media only screen and (max-width:599px){
+
+.CalenderViewBtn{
+width: 40%;
+}
+.tableViewDateDiv{
+    width: 100%;
+    word-break: break-all;
+}
+.TableViewBtn{
+width: 40%;
+}
+
+.TableImg{
+    margin-left: 0% !important;
+}
+
+.AddToGoogleCalenderBtn , .AddToICalenderBtn{
+    padding-bottom: 6px !important;
+    padding-top: 6px !important;
+    height: 40px;
+}
+
+.AddToGoogleCalenderBtn{
+    margin-top: 5px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+}
+.AddToICalenderBtn{
+    width: 90%;
+    margin-top: 12px !important;
+    margin-bottom: 10px;
+    margin-right:5px;
+    float: right; 
+}
+
+.blackCalIcon{
+    position: relative;
+    top:10px;
+}
+
+.addToIcalTxt{
+    position: relative;
+    top:5px;
+
+}
+
+}
+@media only screen and (max-width:470px){
+.tableViewEventDiv{
+    height: 137px !important;
+}
+.TableImg{
+    height: 97.5% !important;
+}
+.AddToICalenderBtn{
+    
+}
+.tableViewDateDiv{
+    height: 100%;
+    /* margin-top: 10% !important; */
+}
+
+}
+
+@media only screen and (max-width:410px){
+.googleBtnTable,.addToIcalTxt{
+    font-size: 11px !important;
+}
+.whiteCalIcon,.blackCalIcon{
+    margin-left: 10px !important;
+}
+.TableImg{
+    height: 99.5% !important;
+}
+.whiteCalIcon{
+    margin-top: 14px !important;
+}
+.TableCOntenntDiv p{
+    font-size: 14px !important;
+}
+}
+@media only screen and (max-width:330px){
+    .whiteCalIcon,.blackCalIcon{
+        position: relative;
+        left: -10px;
+    }
+}

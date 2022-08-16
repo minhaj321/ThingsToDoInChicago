@@ -1,0 +1,90 @@
+.cookingForIcon,.cookingBackIcon{
+    cursor: pointer;
+}
+
+.cookingClassMain{
+    width: 93%;
+    margin: auto;
+    padding-left: 2%;
+    margin-top: 20px;
+}
+
+@media only screen and (max-width:1030px){
+    .cookingBackIcon{
+        margin-right: -10px !important;
+        width: 40px;
+    }
+    
+.cookingClassMain{
+    width: 95%;
+    margin: auto;
+}
+
+}
+
+@media only screen and (max-width:770px){
+    .cookingBackIcon{
+        margin-right: 10px !important;
+    }
+    .fourthCookingCard{
+        margin-top: 15px !important;
+    }
+    .cookingCard{
+        padding-left: 3% !important;
+    }
+    .thirdCookingCard{
+        margin-top: 15px !important;
+    }
+       
+.cookingClassMain{
+    width: 94%;
+    margin: auto;
+}
+}
+
+
+@media only screen and (max-width:600px){
+.cookingtXT{
+    margin-left: 0px !important;
+}
+}
+
+@media only screen and (max-width:430px){
+.cookingCard{
+    /* margin-left: 10px !important; */
+    margin: auto !important;
+    /* margin-left: 50px !important; */
+    margin-top: 10px !important;
+}
+
+}
+
+@media only screen and (max-width:380px){
+    
+    .cookingBackIcon{
+        /* margin-right: -20px !important; */
+    }
+
+    .cookingClassMain{
+        width: 100% !important;
+        margin-left: -10px !important;
+            }
+        .cookingCard{
+            margin-left: 11% !important;
+            padding-left: 0px !important;
+        }
+.cookingtXT{
+    margin-left: 0px !important;
+}
+}
+
+
+@media only screen and (max-width:320px){
+    .cookingCard{
+        margin-left: 8% !important;
+        padding-left: 10px !important;
+    }
+
+
+    
+    }

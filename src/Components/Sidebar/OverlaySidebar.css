@@ -1,0 +1,52 @@
+.overlaySidebar_menu_icon{
+    /* margin: 15px 0px 0px 5px; */
+    margin-top: 10px;
+}
+.menu_sub_div1{
+    height: 10px;
+text-align: center;
+/* margin-left: -3px; */
+}
+.overlaySidebar_menu_icon{
+    height: 20px !important;
+    width: 20px !important;
+}
+.overlaySidebarMain{
+    height: 100%;
+    position: fixed;
+    width: 8.5%;
+    /* z-index: 2; */
+    background-color: #333333;
+    color: #fff;
+}
+.overlayListMain{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 90%;
+    margin-top: 50px;
+}
+.overlayMenuDiv{
+color: white;
+text-align: center;
+margin-top: 20px;
+}
+
+.avatarSidebarDivOver{
+    /* margin-top: 50px; */
+}
+
+.overlayAvatarSidebarDiv{
+    margin-top: -20px;
+}
+.overlayShowedMenu{
+    /* margin-top:80% */
+    /* margin-top: -40px; */
+    }
+    
+.overlayMenu_logoutDiv{
+    margin-top: 60px;
+}
+.overlayShowedMenuLogOut{
+    /* margin-top: 200%; */
+}
